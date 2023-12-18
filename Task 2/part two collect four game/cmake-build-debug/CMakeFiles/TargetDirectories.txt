@@ -1,0 +1,3 @@
+D:/FCAI/third term/OOP/OOP---Assignment-3/task 2/part two collect four game/cmake-build-debug/CMakeFiles/part_two_collect_four_game.dir
+D:/FCAI/third term/OOP/OOP---Assignment-3/task 2/part two collect four game/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FCAI/third term/OOP/OOP---Assignment-3/task 2/part two collect four game/cmake-build-debug/CMakeFiles/rebuild_cache.dir

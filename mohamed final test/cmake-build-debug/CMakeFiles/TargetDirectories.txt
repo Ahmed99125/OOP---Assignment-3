@@ -1,0 +1,3 @@
+D:/FCAI/third term/OOP/OOP---Assignment-3/mohamed final test/cmake-build-debug/CMakeFiles/mohamed_final_test.dir
+D:/FCAI/third term/OOP/OOP---Assignment-3/mohamed final test/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FCAI/third term/OOP/OOP---Assignment-3/mohamed final test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
