@@ -193,3 +193,27 @@ bool FiveXFiveBoard::game_is_over()
 {
     return n_moves >= 25;
 }
+
+
+
+bool FiveXFiveBoard::undo_move(int x, int y) {
+    if (x < 0 || x >= n_rows || y < 0 || y >= n_cols)
+        return false;
+    board[x][y] = 0;
+    n_moves--;
+    return true;
+}
+
+int FiveXFiveBoard::get_n_moves() const {
+    return n_moves;
+}
+
+string FiveXFiveBoard::get_board() const {
+    string ans = "";
+    for (int i = 0; i < n_rows; i++) {
+        for (int j = 0; j < n_cols; j++) {
+            ans += board[i][j];
+        }
+    }
+    return ans;
+}

@@ -29,6 +29,13 @@ public:
    virtual void display_board() = 0;
    // Return true if game is over
    virtual bool game_is_over() = 0;
+
+   // Removes move in cell (x,y)
+    virtual bool undo_move(int x, int y) = 0;
+    // Return the board as string
+    virtual string get_board() const = 0;
+   // Return n_moves
+    virtual int get_n_moves() const = 0;
 };
 
 ///////////////////////////////////////////

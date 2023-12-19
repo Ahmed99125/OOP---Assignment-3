@@ -33,6 +33,14 @@ bool Pyramid_X_O_Board::update_board(int x, int y, char mark) {
     return true;
 }
 
+bool Pyramid_X_O_Board::undo_move(int x, int y) {
+    if (x < 0 || x >= n_rows || y < 0 || y >= n_cols)
+        return false;
+    board[x][y] = 0;
+    n_moves--;
+    return true;
+}
+
 void Pyramid_X_O_Board::display_board() {
     for (int i = 0; i < n_rows; i++) {
         cout << "\n| ";
@@ -83,4 +91,18 @@ bool Pyramid_X_O_Board::is_draw() {
 
 bool Pyramid_X_O_Board::game_is_over() {
     return n_moves >= 9;
+}
+
+int Pyramid_X_O_Board::get_n_moves() const {
+    return n_moves;
+}
+
+string Pyramid_X_O_Board::get_board() const {
+    string ans = "";
+    for (int i = 0; i < n_rows; i++) {
+        for (int j = 0; j < n_cols; j++) {
+            ans += board[i][j];
+        }
+    }
+    return ans;
 }

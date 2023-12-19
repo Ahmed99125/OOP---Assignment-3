@@ -22,6 +22,12 @@ public:
     bool is_winner();
     bool is_draw();
     bool game_is_over();
+
+    bool undo_move(int x, int y);
+    // Return the board as string
+    string get_board() const;
+    // Return n_moves
+    int get_n_moves() const;
 };
 
 #endif //NEW_FOLDER_5X5BOARD_H

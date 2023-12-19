@@ -98,4 +98,24 @@ int CollectFourBoard::getMoves() {
 }
 
 
+bool CollectFourBoard::undo_move(int x, int y) {
+    if (x < 0 || x >= n_rows || y < 0 || y >= n_cols)
+        return false;
+    board[x][y] = 0;
+    n_moves--;
+    return true;
+}
 
+int CollectFourBoard::get_n_moves() const {
+    return n_moves;
+}
+
+string CollectFourBoard::get_board() const {
+    string ans = "";
+    for (int i = 0; i < n_rows; i++) {
+        for (int j = 0; j < n_cols; j++) {
+            ans += board[i][j];
+        }
+    }
+    return ans;
+}

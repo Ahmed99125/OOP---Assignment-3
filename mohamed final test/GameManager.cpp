@@ -21,7 +21,7 @@ void GameManager::run() {
     while (!boardPtr->game_is_over()) {
         for (int i:{0,1}) {
             players[i]->get_move(x, y);
-            while (!boardPtr->update_board (x, y, players[i]->get_symbol())){
+            while (!boardPtr->update_board(x, y, players[i]->get_symbol())){
                 players[i]->get_move(x, y);
             }
             boardPtr->display_board();

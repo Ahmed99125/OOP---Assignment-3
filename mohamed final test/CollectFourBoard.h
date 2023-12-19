@@ -16,6 +16,12 @@ public:
     bool is_draw();
     bool game_is_over();
     int getMoves();
+
+    bool undo_move(int x, int y);
+    // Return the board as string
+    string get_board() const;
+    // Return n_moves
+    int get_n_moves() const;
 };
 
 #endif

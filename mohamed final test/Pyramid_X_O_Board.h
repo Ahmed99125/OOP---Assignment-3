@@ -13,10 +13,13 @@ class Pyramid_X_O_Board : public Board {
 public:
     Pyramid_X_O_Board();
     bool update_board (int x, int y, char mark);
+    bool undo_move(int x, int y);
     void display_board();
     bool is_winner();
     bool is_draw();
     bool game_is_over();
+    int get_n_moves() const;
+    string get_board() const;
 };
 
 #endif //TASK_2_PYRAMID_X_O_BOARD_H
