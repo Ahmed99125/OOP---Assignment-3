@@ -47,7 +47,7 @@ int choice1;
                 players[1] = new CollectFourPlayer(2, 'o');
             } else {
                 //Player pointer points to child
-                players[1] = new RandomPlayer('o', 7);
+                players[1] = new Pyramid_X_O_AI('O', board);
             }
             GameManager collectFour(board, players);
             collectFour.run();

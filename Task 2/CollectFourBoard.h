@@ -2,6 +2,7 @@
 #define _COLLECTFOURBOARD_H_
 
 #include "BoardGame_Classes.hpp"
+#include <map>
 
 class CollectFourBoard:public Board {
 private:
@@ -22,6 +23,12 @@ public:
     string get_board() const;
     // Return n_moves
     int get_n_moves() const;
+    // Return n_rows
+    int get_n_rows() const;
+    // Return n_rows
+    int get_n_cols() const;
+
+    int eval_game();
 };
 
 #endif

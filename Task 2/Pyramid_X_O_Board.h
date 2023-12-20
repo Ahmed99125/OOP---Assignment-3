@@ -20,6 +20,12 @@ public:
     bool game_is_over();
     int get_n_moves() const;
     string get_board() const;
+    // Return n_rows
+    int get_n_rows() const;
+    // Return n_rows
+    int get_n_cols() const;
+
+    int eval_game();
 };
 
 #endif //TASK_2_PYRAMID_X_O_BOARD_H

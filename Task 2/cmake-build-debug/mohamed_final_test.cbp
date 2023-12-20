@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug"/>
+				<Option working_dir="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mohamed_final_test">
-				<Option output="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/mohamed_final_test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug"/>
+				<Option output="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/mohamed_final_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 mohamed_final_test"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 mohamed_final_test"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mohamed_final_test/fast">
-				<Option output="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/mohamed_final_test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug"/>
+				<Option output="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/mohamed_final_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,97 +55,97 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 mohamed_final_test/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 mohamed_final_test/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug"/>
+				<Option working_dir="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug"/>
+				<Option working_dir="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/BoardGame_Classes.hpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/BoardGame_Classes.hpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/CollectFourBoard.cpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/CollectFourBoard.cpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/CollectFourBoard.h">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/CollectFourBoard.h">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/CollectFourPlayer.cpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/CollectFourPlayer.cpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/CollectFourPlayer.h">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/CollectFourPlayer.h">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/FiveXFiveBoard.cpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/FiveXFiveBoard.cpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/FiveXFiveBoard.h">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/FiveXFiveBoard.h">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/FiveXFivePlayer.cpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/FiveXFivePlayer.cpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/FiveXFivePlayer.h">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/FiveXFivePlayer.h">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/FiveXFive_GameManager.cpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/FiveXFive_GameManager.cpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/FiveXFive_GameManager.h">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/FiveXFive_GameManager.h">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/GameManager.cpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/GameManager.cpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/Player.cpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/Player.cpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/Pyramid_X_O_AI.cpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/Pyramid_X_O_AI.cpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/Pyramid_X_O_AI.h">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/Pyramid_X_O_AI.h">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/Pyramid_X_O_Board.cpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/Pyramid_X_O_Board.cpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/Pyramid_X_O_Board.h">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/Pyramid_X_O_Board.h">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/Pyramid_X_O_Player.cpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/Pyramid_X_O_Player.cpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/Pyramid_X_O_Player.h">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/Pyramid_X_O_Player.h">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/RandomPlayer.cpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/RandomPlayer.cpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/main.cpp">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/main.cpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/mohamed final test/CMakeLists.txt">
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

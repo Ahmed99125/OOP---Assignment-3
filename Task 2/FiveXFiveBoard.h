@@ -28,6 +28,12 @@ public:
     string get_board() const;
     // Return n_moves
     int get_n_moves() const;
+    // Return n_rows
+    int get_n_rows() const;
+    // Return n_rows
+    int get_n_cols() const;
+
+    int eval_game();
 };
 
 #endif //NEW_FOLDER_5X5BOARD_H

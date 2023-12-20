@@ -15,6 +15,7 @@ private:
     int minimax(int depth, char curr_Player, int alpha, int beta);
     Board* board;
     unordered_map <string, int> dp;
+    bool is_pruned;
 public:
     Pyramid_X_O_AI(char symbol, Board* board_ptr);
     void get_move(int& x, int& y);

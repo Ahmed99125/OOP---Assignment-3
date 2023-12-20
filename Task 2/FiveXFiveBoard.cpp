@@ -217,3 +217,15 @@ string FiveXFiveBoard::get_board() const {
     }
     return ans;
 }
+
+int FiveXFiveBoard::get_n_rows() const {
+    return n_rows;
+}
+
+int FiveXFiveBoard::get_n_cols() const {
+    return n_cols;
+}
+
+int FiveXFiveBoard::eval_game() {
+
+}

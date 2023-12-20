@@ -36,6 +36,12 @@ public:
     virtual string get_board() const = 0;
    // Return n_moves
     virtual int get_n_moves() const = 0;
+    // Return n_rows
+    virtual int get_n_rows() const = 0;
+    // Return n_rows
+    virtual int get_n_cols() const = 0;
+    // Estimate game
+    virtual int eval_game() = 0;
 };
 
 ///////////////////////////////////////////

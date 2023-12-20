@@ -106,3 +106,15 @@ string Pyramid_X_O_Board::get_board() const {
     }
     return ans;
 }
+
+int Pyramid_X_O_Board::get_n_rows() const {
+    return n_rows;
+}
+
+int Pyramid_X_O_Board::get_n_cols() const {
+    return n_cols;
+}
+
+int Pyramid_X_O_Board::eval_game() {
+
+}

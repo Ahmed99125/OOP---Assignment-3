@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test"
+CMAKE_SOURCE_DIR = "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mohamed_final_test.dir/depend.make
@@ -71,170 +71,170 @@ include CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/main.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/mohamed_final_test.dir/main.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mohamed_final_test.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/main.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\main.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\main.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mohamed_final_test.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/main.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\main.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\main.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\main.cpp"
 
 CMakeFiles/mohamed_final_test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\main.cpp" > CMakeFiles\mohamed_final_test.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\main.cpp" > CMakeFiles\mohamed_final_test.dir\main.cpp.i
 
 CMakeFiles/mohamed_final_test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\main.cpp" -o CMakeFiles\mohamed_final_test.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\main.cpp" -o CMakeFiles\mohamed_final_test.dir\main.cpp.s
 
 CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.obj: ../CollectFourBoard.cpp
 CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\CollectFourBoard.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\CollectFourBoard.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\CollectFourBoard.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\CollectFourBoard.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\CollectFourBoard.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\CollectFourBoard.cpp"
 
 CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\CollectFourBoard.cpp" > CMakeFiles\mohamed_final_test.dir\CollectFourBoard.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\CollectFourBoard.cpp" > CMakeFiles\mohamed_final_test.dir\CollectFourBoard.cpp.i
 
 CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\CollectFourBoard.cpp" -o CMakeFiles\mohamed_final_test.dir\CollectFourBoard.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\CollectFourBoard.cpp" -o CMakeFiles\mohamed_final_test.dir\CollectFourBoard.cpp.s
 
 CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.obj: ../CollectFourPlayer.cpp
 CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\CollectFourPlayer.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\CollectFourPlayer.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\CollectFourPlayer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\CollectFourPlayer.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\CollectFourPlayer.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\CollectFourPlayer.cpp"
 
 CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\CollectFourPlayer.cpp" > CMakeFiles\mohamed_final_test.dir\CollectFourPlayer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\CollectFourPlayer.cpp" > CMakeFiles\mohamed_final_test.dir\CollectFourPlayer.cpp.i
 
 CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\CollectFourPlayer.cpp" -o CMakeFiles\mohamed_final_test.dir\CollectFourPlayer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\CollectFourPlayer.cpp" -o CMakeFiles\mohamed_final_test.dir\CollectFourPlayer.cpp.s
 
 CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.obj: ../FiveXFive_GameManager.cpp
 CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\FiveXFive_GameManager.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\FiveXFive_GameManager.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\FiveXFive_GameManager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\FiveXFive_GameManager.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\FiveXFive_GameManager.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\FiveXFive_GameManager.cpp"
 
 CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\FiveXFive_GameManager.cpp" > CMakeFiles\mohamed_final_test.dir\FiveXFive_GameManager.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\FiveXFive_GameManager.cpp" > CMakeFiles\mohamed_final_test.dir\FiveXFive_GameManager.cpp.i
 
 CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\FiveXFive_GameManager.cpp" -o CMakeFiles\mohamed_final_test.dir\FiveXFive_GameManager.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\FiveXFive_GameManager.cpp" -o CMakeFiles\mohamed_final_test.dir\FiveXFive_GameManager.cpp.s
 
 CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.obj: ../FiveXFiveBoard.cpp
 CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\FiveXFiveBoard.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\FiveXFiveBoard.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\FiveXFiveBoard.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\FiveXFiveBoard.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\FiveXFiveBoard.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\FiveXFiveBoard.cpp"
 
 CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\FiveXFiveBoard.cpp" > CMakeFiles\mohamed_final_test.dir\FiveXFiveBoard.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\FiveXFiveBoard.cpp" > CMakeFiles\mohamed_final_test.dir\FiveXFiveBoard.cpp.i
 
 CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\FiveXFiveBoard.cpp" -o CMakeFiles\mohamed_final_test.dir\FiveXFiveBoard.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\FiveXFiveBoard.cpp" -o CMakeFiles\mohamed_final_test.dir\FiveXFiveBoard.cpp.s
 
 CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.obj: ../FiveXFivePlayer.cpp
 CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\FiveXFivePlayer.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\FiveXFivePlayer.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\FiveXFivePlayer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\FiveXFivePlayer.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\FiveXFivePlayer.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\FiveXFivePlayer.cpp"
 
 CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\FiveXFivePlayer.cpp" > CMakeFiles\mohamed_final_test.dir\FiveXFivePlayer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\FiveXFivePlayer.cpp" > CMakeFiles\mohamed_final_test.dir\FiveXFivePlayer.cpp.i
 
 CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\FiveXFivePlayer.cpp" -o CMakeFiles\mohamed_final_test.dir\FiveXFivePlayer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\FiveXFivePlayer.cpp" -o CMakeFiles\mohamed_final_test.dir\FiveXFivePlayer.cpp.s
 
 CMakeFiles/mohamed_final_test.dir/GameManager.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/GameManager.cpp.obj: ../GameManager.cpp
 CMakeFiles/mohamed_final_test.dir/GameManager.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mohamed_final_test.dir/GameManager.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/GameManager.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\GameManager.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\GameManager.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\GameManager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mohamed_final_test.dir/GameManager.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/GameManager.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\GameManager.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\GameManager.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\GameManager.cpp"
 
 CMakeFiles/mohamed_final_test.dir/GameManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/GameManager.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\GameManager.cpp" > CMakeFiles\mohamed_final_test.dir\GameManager.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\GameManager.cpp" > CMakeFiles\mohamed_final_test.dir\GameManager.cpp.i
 
 CMakeFiles/mohamed_final_test.dir/GameManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/GameManager.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\GameManager.cpp" -o CMakeFiles\mohamed_final_test.dir\GameManager.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\GameManager.cpp" -o CMakeFiles\mohamed_final_test.dir\GameManager.cpp.s
 
 CMakeFiles/mohamed_final_test.dir/Player.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/Player.cpp.obj: ../Player.cpp
 CMakeFiles/mohamed_final_test.dir/Player.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mohamed_final_test.dir/Player.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/Player.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\Player.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\Player.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\Player.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mohamed_final_test.dir/Player.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/Player.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\Player.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\Player.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Player.cpp"
 
 CMakeFiles/mohamed_final_test.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/Player.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\Player.cpp" > CMakeFiles\mohamed_final_test.dir\Player.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Player.cpp" > CMakeFiles\mohamed_final_test.dir\Player.cpp.i
 
 CMakeFiles/mohamed_final_test.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/Player.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\Player.cpp" -o CMakeFiles\mohamed_final_test.dir\Player.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Player.cpp" -o CMakeFiles\mohamed_final_test.dir\Player.cpp.s
 
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.obj: ../Pyramid_X_O_Board.cpp
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Board.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Board.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\Pyramid_X_O_Board.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Board.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Board.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Pyramid_X_O_Board.cpp"
 
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\Pyramid_X_O_Board.cpp" > CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Board.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Pyramid_X_O_Board.cpp" > CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Board.cpp.i
 
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\Pyramid_X_O_Board.cpp" -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Board.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Pyramid_X_O_Board.cpp" -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Board.cpp.s
 
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.obj: ../Pyramid_X_O_Player.cpp
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Player.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Player.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\Pyramid_X_O_Player.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Player.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Player.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Pyramid_X_O_Player.cpp"
 
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\Pyramid_X_O_Player.cpp" > CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Player.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Pyramid_X_O_Player.cpp" > CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Player.cpp.i
 
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\Pyramid_X_O_Player.cpp" -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Player.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Pyramid_X_O_Player.cpp" -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_Player.cpp.s
 
 CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.obj: ../RandomPlayer.cpp
 CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\RandomPlayer.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\RandomPlayer.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\RandomPlayer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\RandomPlayer.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\RandomPlayer.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\RandomPlayer.cpp"
 
 CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\RandomPlayer.cpp" > CMakeFiles\mohamed_final_test.dir\RandomPlayer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\RandomPlayer.cpp" > CMakeFiles\mohamed_final_test.dir\RandomPlayer.cpp.i
 
 CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\RandomPlayer.cpp" -o CMakeFiles\mohamed_final_test.dir\RandomPlayer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\RandomPlayer.cpp" -o CMakeFiles\mohamed_final_test.dir\RandomPlayer.cpp.s
 
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj: ../Pyramid_X_O_AI.cpp
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_AI.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_AI.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\Pyramid_X_O_AI.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_AI.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_AI.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Pyramid_X_O_AI.cpp"
 
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\Pyramid_X_O_AI.cpp" > CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_AI.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Pyramid_X_O_AI.cpp" > CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_AI.cpp.i
 
 CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\Pyramid_X_O_AI.cpp" -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_AI.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Pyramid_X_O_AI.cpp" -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_AI.cpp.s
 
 # Object files for target mohamed_final_test
 mohamed_final_test_OBJECTS = \
@@ -270,7 +270,7 @@ mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/build.make
 mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/linklibs.rsp
 mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/objects1.rsp
 mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable mohamed_final_test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable mohamed_final_test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mohamed_final_test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -282,6 +282,6 @@ CMakeFiles/mohamed_final_test.dir/clean:
 .PHONY : CMakeFiles/mohamed_final_test.dir/clean
 
 CMakeFiles/mohamed_final_test.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test" "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test" "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug" "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug" "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\mohamed final test\cmake-build-debug\CMakeFiles\mohamed_final_test.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2" "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2" "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug" "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug" "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles\mohamed_final_test.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/mohamed_final_test.dir/depend
 

@@ -17,8 +17,6 @@ bool CollectFourBoard::update_board (int x, int y, char mark){
     if (!(x < 0 || x > 5 || y < 0 || y > 6) ) {
         bool isBottom = (x==5 || board[x+1][y] != 0) ;
         if(isBottom && board[x][y] == 0){
-        cout<< x << " " << y<< endl ;
-        cout.flush();
         board[x][y] = toupper(mark);
         n_moves++;
         lastPlayX = x;
@@ -55,7 +53,7 @@ bool CollectFourBoard::is_winner() {
         st:;
     }
     // vertically
-    for(int i =max(0, lastPlayX-3); i<=min(lastPlayX,3) ;i++){
+    for(int i =max(0, lastPlayX-3); i<=min(lastPlayX,2) ;i++){
         for(int j =i ; j<i+4 ;j++){
             if( board[j][lastPlayY] != lastPlaySymbol ){
                 goto st1 ;
@@ -110,6 +108,14 @@ int CollectFourBoard::get_n_moves() const {
     return n_moves;
 }
 
+int CollectFourBoard::get_n_rows() const {
+    return n_rows;
+}
+
+int CollectFourBoard::get_n_cols() const {
+    return n_cols;
+}
+
 string CollectFourBoard::get_board() const {
     string ans = "";
     for (int i = 0; i < n_rows; i++) {
@@ -118,4 +124,43 @@ string CollectFourBoard::get_board() const {
         }
     }
     return ans;
+}
+
+int CollectFourBoard::eval_game() {
+    map <int, int> counter;
+
+
+    for (int i = 0; i < n_rows; i++) {
+        int cntX_H = 0, cntO_H = 0, cntX_V = 0, cntO_V = 0;
+        for (int j = 0; j < n_cols; j++) {
+            // Horizontal
+            if (board[i][j] == 'X') {
+                cntX_H = min(cntX_H+1, 4);
+                counter[cntO_H]--;
+                cntO_H = 0;
+            }
+            else if (board[i][j] == 'O') {
+                cntO_H = min(cntO_H+1, 4);
+                counter[cntX_H]++;
+                cntX_H = 0;
+            }
+
+            // Vertical
+            if (board[j][i] == 'X') {
+                cntX_H = min(cntX_H+1, 4);
+                counter[cntO_H]--;
+                cntO_H = 0;
+            }
+            else if (board[j][i] == 'O') {
+                cntO_H = min(cntO_H+1, 4);
+                counter[cntX_H]++;
+                cntX_H = 0;
+            }
+
+            // Diagonal
+
+        }
+    }
+
+    return 15 * counter[4] + 10 * counter[3] + 5 * counter[2] + counter[1];
 }
