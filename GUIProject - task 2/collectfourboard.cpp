@@ -16,8 +16,8 @@ bool CollectFourBoard::update_board (int x, int y, char mark){
     if (!(x < 0 || x > 5 || y < 0 || y > 6) ) {
         bool isBottom = (x==5 || board[x+1][y] != 0) ;
         if(isBottom && board[x][y] == 0){
-            cout<< x << " " << y<< endl ;
-            cout.flush();
+           // cout<< x << " " << y<< endl ;
+           // cout.flush();
             board[x][y] = toupper(mark);
             n_moves++;
             lastPlayX = x;

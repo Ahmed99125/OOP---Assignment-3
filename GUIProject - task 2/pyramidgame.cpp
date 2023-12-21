@@ -31,7 +31,7 @@ PyramidGame::PyramidGame(QWidget *parent)
     buttons.resize(3, QVector<QPushButton *>(5, nullptr));//
     for (int row = 0; row < 3; ++row) {
         for (int col = 0; col < 5; ++col) {
-            qDebug()<< "hi";
+            //qDebug()<< "hi";
             if(((row == 0 )&&(col==0 || col==1 || col == 3|| col== 4)) || (row ==1)&&(col==0|| col==4)){
                 continue;
             }
@@ -47,7 +47,7 @@ PyramidGame::PyramidGame(QWidget *parent)
         }
     }
     board = new Pyramid_X_O_Board();
-    qDebug()<< "hi1";
+    //qDebug()<< "hi1";
 
 }
 

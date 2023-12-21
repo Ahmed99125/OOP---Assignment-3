@@ -1460,15 +1460,15 @@ D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/collectfourboard.c
 D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/collectfourplayer.cpp
 D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/connectfourgame.cpp
  uic:ui_connectfourgame.h
-D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/fivexfive_gamemanager.cpp
 D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/pyramid_x_o_board.cpp
+D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/fivexfive_gamemanager.cpp
 D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/fivexfiveboard.cpp
 D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/fivexfivegame.cpp
  uic:ui_fivexfivegame.h
 D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/fivexfiveplayer.cpp
+D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/main.cpp
 D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/normalgame.cpp
  uic:ui_normalgame.h
-D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/main.cpp
 D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/mainwindow.cpp
  uic:./ui_mainwindow.h
 D:/FCAI/third term/OOP/OOP---Assignment-3/GUIProject - task 2/pyramidgame.cpp
