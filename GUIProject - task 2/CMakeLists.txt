@@ -37,6 +37,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         connectfourgame.h connectfourgame.cpp connectfourgame.ui
         fivexfivegame.h fivexfivegame.cpp fivexfivegame.ui
         pyramidgame.h pyramidgame.cpp pyramidgame.ui
+        normalgame.h normalgame.cpp normalgame.ui
+        X_O_Board.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET GUIProject APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

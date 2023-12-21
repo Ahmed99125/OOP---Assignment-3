@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include"connectfourgame.h"
+#include "normalgame.h"
 #include"pyramidgame.h"
 #include "fivexfivegame.h"
 
@@ -38,7 +39,16 @@ void MainWindow::on_pyramicGameBtn_clicked()
 {
     PyramidGame pyramidGame;
     pyramidGame.setWindowTitle("Pyramid Game");
-    pyramidGame.setModal(false);
-    pyramidGame.show();
+    pyramidGame.setModal(true);
+    pyramidGame.exec();
+}
+
+
+void MainWindow::on_pushButton_clicked()
+{
+    NormalGame normalGame;
+    normalGame.setWindowTitle("Pyramid Game");
+    normalGame.setModal(true);
+    normalGame.exec();
 }
 

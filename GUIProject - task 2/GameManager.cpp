@@ -14,17 +14,17 @@ GameManager::GameManager(Board* bPtr, Player* playerPtr[2] ) {
 }
 
 void GameManager::run() {
-    qDebug()<< "hi";
+
     int x, y;
 
    boardPtr->display_board();
-qDebug()<< "hi";
+
     while (!boardPtr->game_is_over()) {
-       qDebug()<< "hi";
+
         for (int i:{0,1}) {
-           qDebug()<< "hi";
+
             players[i]->get_move(x, y);
-           qDebug()<< "hi";
+
             while (!boardPtr->update_board (x, y, players[i]->get_symbol())){
                 players[i]->get_move(x, y);
             }

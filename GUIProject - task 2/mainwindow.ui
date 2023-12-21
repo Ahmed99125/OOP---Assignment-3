@@ -50,6 +50,13 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>normal tic tac toe</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QPushButton" name="pyramicGameBtn">
         <property name="text">
          <string>pyramic tic tac toe</string>
