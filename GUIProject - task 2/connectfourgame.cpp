@@ -27,7 +27,7 @@ ConnectFourGame::ConnectFourGame(QWidget *parent)
     if(choice == QMessageBox::AcceptRole){
         player2 = new CollectFourPlayer('O');
     }else if(choice == QMessageBox::RejectRole){
-         player2= new AI_Player('O', board);
+         player2= new AI_Player('O', board, 1);
         isRandomSecPlayer = true;
     }
 

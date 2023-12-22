@@ -24,7 +24,7 @@ PyramidGame::PyramidGame(QWidget *parent)
         if(choice == QMessageBox::AcceptRole){
             player2 = new Pyramid_X_O_Player('O');
         }else if(choice == QMessageBox::RejectRole){
-            player2 = new AI_Player('O', board);
+            player2 = new AI_Player('O', board, 0);
             isRandomSecPlayer = true;
         }
 

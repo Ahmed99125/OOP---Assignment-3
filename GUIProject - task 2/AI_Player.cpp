@@ -1,7 +1,7 @@
 #include "AI_Player.h"
 
-AI_Player::AI_Player(char symbol, Board* board_ptr) : Player(symbol) {
-    this->board = board_ptr;
+AI_Player::AI_Player(char symbol, Board* board_ptr, int t)
+    : Player(symbol), board{board_ptr}, type{t} {
     name = "Computer AI";
     int rows = board->get_n_rows(), cols = board->get_n_cols();
     int mid_rows = rows / 2, mid_cols = cols / 2;
@@ -23,6 +23,14 @@ AI_Player::AI_Player(char symbol, Board* board_ptr) : Player(symbol) {
 
 int AI_Player::minimax(int depth, char curr_Player, int alpha, int beta) {
     is_pruned = false;
+    if (type != 2) {
+        if (board->is_winner()) {
+            return (curr_Player == 'X') ? -(1000+depth) : 1000+depth;
+        }
+        if (board->is_draw()) {
+            return 0;
+        }
+    }
     if (!depth)
         return board->eval_game(curr_Player, depth);
 
@@ -101,6 +109,6 @@ int AI_Player::minimax(int depth, char curr_Player, int alpha, int beta) {
 
 void AI_Player::get_move(int &x, int &y) {
     bestMove = {-1, -1};
-    minimax(9, this->get_symbol(), -INT_MAX, INT_MAX);
+    minimax(8, this->get_symbol(), -INT_MAX, INT_MAX);
     x = bestMove.first, y = bestMove.second;
 }

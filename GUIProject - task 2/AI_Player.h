@@ -18,8 +18,9 @@ private:
     unordered_map <string, int> dp;
     bool is_pruned;
     vector <int> dimensionX, dimensionY;
+    int type;
 public:
-    AI_Player(char symbol, Board* board_ptr);
+    AI_Player(char symbol, Board* board_ptr, int type);
     void get_move(int& x, int& y);
 };
 
