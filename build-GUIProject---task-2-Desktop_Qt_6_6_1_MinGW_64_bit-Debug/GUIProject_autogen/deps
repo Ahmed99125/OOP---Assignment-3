@@ -282,23 +282,81 @@ GUIProject_autogen/timestamp: \
 	C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake \
 	C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake \
 	C:/Qt/6.6.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineRCCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeNinjaFindMake.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeRCCompiler.cmake.in \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeRCInformation.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystem.cmake.in \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestRCCompiler.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckIncludeFileCXX.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GNU.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindPackageMessage.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake \
@@ -307,6 +365,8 @@ GUIProject_autogen/timestamp: \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-Determine-CXX.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake \
@@ -339,7 +399,6 @@ GUIProject_autogen/timestamp: \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/enable_special_members.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h \
@@ -347,8 +406,6 @@ GUIProject_autogen/timestamp: \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable.h \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable_policy.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
@@ -361,7 +418,6 @@ GUIProject_autogen/timestamp: \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/node_handle.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/parse_numbers.h \
@@ -373,7 +429,6 @@ GUIProject_autogen/timestamp: \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_atomic.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/specfun.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h \
@@ -399,11 +454,9 @@ GUIProject_autogen/timestamp: \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stream_iterator.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/string_view.tcc \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_ptr.h \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unordered_map.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uses_allocator.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
@@ -446,10 +499,6 @@ GUIProject_autogen/timestamp: \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/optional \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_numeric_defs.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
@@ -457,22 +506,9 @@ GUIProject_autogen/timestamp: \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string_view \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/bessel_function.tcc \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/beta_function.tcc \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/ell_integral.tcc \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/exp_integral.tcc \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/gamma.tcc \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/hypergeometric.tcc \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/legendre_function.tcc \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/modified_bessel_func.tcc \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/poly_hermite.tcc \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/poly_laguerre.tcc \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/riemann_zeta.tcc \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/special_function_util.h \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tuple \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
-	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/unordered_map \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/utility \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/variant \
 	C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
@@ -527,45 +563,45 @@ GUIProject_autogen/timestamp: \
 	C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
 	C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/CMakeLists.txt \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/GameManager.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/Player.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/RandomPlayer.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/X_O_Board.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/boardgame_classes.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/collectfourboard.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/collectfourboard.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/collectfourplayer.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/collectfourplayer.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/connectfourgame.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/connectfourgame.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/fivexfive_gamemanager.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/fivexfive_gamemanager.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/fivexfiveboard.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/fivexfiveboard.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/fivexfivegame.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/fivexfivegame.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/fivexfiveplayer.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/fivexfiveplayer.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/main.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/mainwindow.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/mainwindow.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/normalgame.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/normalgame.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/pyramid_x_o_board.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/pyramid_x_o_board.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/pyramid_x_o_player.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/pyramid_x_o_player.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/pyramidgame.cpp \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/pyramidgame.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/moc_predefs.h \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/connectfourgame.ui \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/fivexfivegame.ui \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/mainwindow.ui \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/normalgame.ui \
-	D:/FCAI/third\ term/OOP/OOP---Assignment-3/GUIProject\ -\ task\ 2/pyramidgame.ui \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/CMakeLists.txt \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/GameManager.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/Player.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/RandomPlayer.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/X_O_Board.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/boardgame_classes.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/collectfourboard.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/collectfourboard.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/collectfourplayer.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/collectfourplayer.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/connectfourgame.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/connectfourgame.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfive_gamemanager.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfive_gamemanager.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfiveboard.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfiveboard.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfivegame.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfivegame.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfiveplayer.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfiveplayer.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/main.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/mainwindow.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/mainwindow.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/normalgame.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/normalgame.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/pyramid_x_o_board.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/pyramid_x_o_board.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/pyramid_x_o_player.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/pyramid_x_o_player.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/pyramidgame.cpp \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/pyramidgame.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/moc_predefs.h \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/connectfourgame.ui \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfivegame.ui \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/mainwindow.ui \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/normalgame.ui \
+	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/pyramidgame.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe
