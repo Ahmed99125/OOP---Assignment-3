@@ -334,6 +334,7 @@ D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/BoardGame_Classes.hpp \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/boardgame_classes.h \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfiveboard.h \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfiveplayer.h

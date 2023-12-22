@@ -127,13 +127,6 @@ string CollectFourBoard::get_board() const {
 }
 
 int CollectFourBoard::eval_game(char curr_player, int depth) {
-    if (is_winner()) {
-        return (curr_player == 'X') ? -(1000+depth) : (1000+depth);
-    }
-    if (is_draw()) {
-        return 0;
-    }
-
     int scoreX = 0, scoreO = 0;
 
     auto check = [] (int i, int j, int limit) -> bool {

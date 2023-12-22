@@ -3,6 +3,7 @@
 #include "qmessagebox.h"
 #include "qpushbutton.h"
 #include "ui_fivexfivegame.h"
+#include "AI_Player.h"
 
 FiveXFiveGame::FiveXFiveGame(QWidget *parent)
     : QDialog(parent)
@@ -10,17 +11,18 @@ FiveXFiveGame::FiveXFiveGame(QWidget *parent)
 {
     ui->setupUi(this);
     player1 = new FiveXFivePlayer('X');
+    board = new FiveXFiveBoard();
     do{
         QMessageBox msBox;
         msBox.setText("choose the second player");
         msBox.addButton("Player 2", QMessageBox::AcceptRole);
-        msBox.addButton("Random Player",QMessageBox::RejectRole);
+        msBox.addButton("AI Player",QMessageBox::RejectRole);
         int choice = msBox.exec();
 
         if(choice == QMessageBox::AcceptRole){
             player2 = new FiveXFivePlayer('O');
         }else if(choice == QMessageBox::RejectRole){
-            player2= new RandomPlayer('O',5);
+            player2= new AI_Player('O', board);
             isRandomSecPlayer = true;
         }
 
@@ -41,9 +43,6 @@ FiveXFiveGame::FiveXFiveGame(QWidget *parent)
             });
         }
     }
-    board = new FiveXFiveBoard();
-
-
 }
 
 FiveXFiveGame::~FiveXFiveGame()
@@ -71,7 +70,7 @@ void FiveXFiveGame::move(int col, int row,QPushButton *button){
             }else{
                 QMessageBox msBox;
                 if(isRandomSecPlayer){
-                    msBox.setText("Random player won");
+                    msBox.setText("AI player won");
                 }else{
 
                     msBox.setText("Plyer2 won");
@@ -106,7 +105,7 @@ void FiveXFiveGame::move(int col, int row,QPushButton *button){
                     return;
                 }else{
                     QMessageBox msBox;
-                    msBox.setText("Random Player won");
+                    msBox.setText("AI Player won");
                     msBox.exec();
                     closeButtons();
                     return;

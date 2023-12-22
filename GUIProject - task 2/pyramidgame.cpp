@@ -4,6 +4,7 @@
 #include "qmessagebox.h"
 #include "qpushbutton.h"
 #include "ui_pyramidgame.h"
+#include "AI_Player.h"
 
 PyramidGame::PyramidGame(QWidget *parent)
     : QDialog(parent)
@@ -12,17 +13,18 @@ PyramidGame::PyramidGame(QWidget *parent)
     ui->setupUi(this);
 
     player1 = new Pyramid_X_O_Player('X');
+    board = new Pyramid_X_O_Board();
     do{
         QMessageBox msBox;
         msBox.setText("choose the second player");
         msBox.addButton("Player 2", QMessageBox::AcceptRole);
-        msBox.addButton("Random Player",QMessageBox::RejectRole);
+        msBox.addButton("AI Player",QMessageBox::RejectRole);
         int choice = msBox.exec();
 
         if(choice == QMessageBox::AcceptRole){
             player2 = new Pyramid_X_O_Player('O');
         }else if(choice == QMessageBox::RejectRole){
-            player2= new RandomPlayer('O',5);
+            player2 = new AI_Player('O', board);
             isRandomSecPlayer = true;
         }
 
@@ -47,7 +49,6 @@ PyramidGame::PyramidGame(QWidget *parent)
             });
         }
     }
-    board = new Pyramid_X_O_Board();
     //qDebug()<< "hi1";
 
 }
@@ -89,13 +90,13 @@ void PyramidGame::move(int col, int row,QPushButton *button){
             int x,y;
             do{
                 player2->get_move(x,y);
-                // qDebug()<<"hi";
+                qDebug()<<"hi";
             }while(!board->update_board(x, y,IsPlayer1 ? 'X' :'O'));
             buttons[x][y]->setText("O");
             IsPlayer1 = !IsPlayer1;
             if(board->is_winner()){
                 QMessageBox msBox;
-                msBox.setText("Random Player won");
+                msBox.setText("AI Player won");
                 msBox.exec();
                 closeButtons();
                 return;

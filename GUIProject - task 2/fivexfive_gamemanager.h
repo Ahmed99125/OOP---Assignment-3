@@ -5,7 +5,7 @@
 #ifndef NEW_FOLDER_FIVEXFIVE_GAMEMANAGER_H
 #define NEW_FOLDER_FIVEXFIVE_GAMEMANAGER_H
 
-#include "boardgame_classes.h"
+#include "BoardGame_Classes.hpp"
 
 class FiveXFive_GameManager {
 private:

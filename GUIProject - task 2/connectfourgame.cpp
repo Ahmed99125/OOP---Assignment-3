@@ -5,6 +5,7 @@
 #include "QDebug"
 #include <QInputDialog>
 #include <QMessageBox>
+#include "AI_Player.h"
 
 
 ConnectFourGame::ConnectFourGame(QWidget *parent)
@@ -14,17 +15,19 @@ ConnectFourGame::ConnectFourGame(QWidget *parent)
     ui->setupUi(this);
 
     player1 = new CollectFourPlayer('X');
+    board = new CollectFourBoard();
+
     do{
     QMessageBox msBox;
     msBox.setText("choose the second player");
     msBox.addButton("Player 2", QMessageBox::AcceptRole);
-    msBox.addButton("Random Player",QMessageBox::RejectRole);
+    msBox.addButton("AI Player",QMessageBox::RejectRole);
     int choice = msBox.exec();
 
     if(choice == QMessageBox::AcceptRole){
         player2 = new CollectFourPlayer('O');
     }else if(choice == QMessageBox::RejectRole){
-         player2= new RandomPlayer('O',7);
+         player2= new AI_Player('O', board);
         isRandomSecPlayer = true;
     }
 
@@ -45,8 +48,6 @@ ConnectFourGame::ConnectFourGame(QWidget *parent)
             });
         }
     }
-    board = new CollectFourBoard();
-
 
 }
 
@@ -92,7 +93,7 @@ void ConnectFourGame::move(int col, int row,QPushButton *button){
             IsPlayer1 = !IsPlayer1;
             if(board->is_winner()){
                 QMessageBox msBox;
-                msBox.setText("Random Player won");
+                msBox.setText("AI Player won");
                 msBox.exec();
                 closeButtons();
                 return;

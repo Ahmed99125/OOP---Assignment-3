@@ -1,134 +1,53 @@
 # ninja log v5
-<<<<<<< HEAD
-1	1077	7249327433025954	GUIProject_autogen/timestamp	b80f7fcd7f0fef85
-1	1077	7249327433025954	GUIProject_autogen/mocs_compilation.cpp	b80f7fcd7f0fef85
-1	1077	7249327433025954	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	b80f7fcd7f0fef85
-1	1077	7249327433025954	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	b80f7fcd7f0fef85
-1091	2152	7249327444266577	CMakeFiles/GUIProject.dir/fivexfive_gamemanager.cpp.obj	98e5e9e82b3cc61b
-1086	2174	7249327444536612	CMakeFiles/GUIProject.dir/collectfourboard.cpp.obj	d8a0a2f712a979a6
-1093	2201	7249327444646574	CMakeFiles/GUIProject.dir/fivexfiveplayer.cpp.obj	9c2782cab63388b4
-1089	2203	7249327444656540	CMakeFiles/GUIProject.dir/fivexfiveboard.cpp.obj	8e1295f10fc98d2f
-2154	3427	7249327456582618	CMakeFiles/GUIProject.dir/pyramid_x_o_player.cpp.obj	e20d7b9f68ed6205
-2174	3531	7249327457481920	CMakeFiles/GUIProject.dir/pyramid_x_o_board.cpp.obj	ad626f750b7eb560
-1094	4522	7249327467832777	CMakeFiles/GUIProject.dir/GameManager.cpp.obj	66f1b2b37b5f9c7f
-3427	4615	7249327468632489	CMakeFiles/GUIProject.dir/RandomPlayer.cpp.obj	82ada550b7f20a21
-1084	5386	7249327476361530	CMakeFiles/GUIProject.dir/main.cpp.obj	22d35aa8e5c63d08
-1079	5557	7249327478191444	CMakeFiles/GUIProject.dir/GUIProject_autogen/mocs_compilation.cpp.obj	ee23470bd6fdc084
-1090	5719	7249327480033437	CMakeFiles/GUIProject.dir/collectfourplayer.cpp.obj	694ae04571253e95
-1082	5836	7249327481233929	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	cef9004b120ffcac
-1087	6107	7249327483962461	CMakeFiles/GUIProject.dir/Player.cpp.obj	b2d57edd33d134b0
-4615	6406	7249327486957458	CMakeFiles/GUIProject.dir/X_O_Board.cpp.obj	67e88f4d414b450f
-2202	6444	7249327487316490	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	b4f14021ec378f90
-2204	6754	7249327490424959	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	f284896f2636e121
-3531	7231	7249327495187452	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	4a2f2f4ca80c7dcc
-4523	7720	7249327500086621	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	aa0fb648bef0837b
-7720	8918	7249327512021766	GUIProject.exe	de1eee3d903be6aa
-=======
-625	1525	7248526811321577	CMakeFiles/GUIProject.dir/pyramid_x_o_board.cpp.obj	4e5044d9d903e56e
-13	178	7249032313090242	GUIProject_autogen/timestamp	a606344c73834c16
-13	178	7249032313090242	GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-13	178	7249032313090242	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	a606344c73834c16
-628	1514	7248526811211477	CMakeFiles/GUIProject.dir/pyramid_x_o_player.cpp.obj	518b869edc097fe7
-615	1519	7248526811241503	CMakeFiles/GUIProject.dir/fivexfiveplayer.cpp.obj	dc2016462177754a
-197	2570	7249032337020034	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	e9f07b2cbdd69684
-178	634	7248994432519033	CMakeFiles/GUIProject.dir/collectfourboard.cpp.obj	cb7d2155f8bbf45b
-13	178	7249032313090242	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-638	1524	7248526811251514	CMakeFiles/GUIProject.dir/RandomPlayer.cpp.obj	62d3efeba542f767
-610	1525	7248526811321577	CMakeFiles/GUIProject.dir/fivexfive_gamemanager.cpp.obj	9f0d2dd15196066e
-612	1526	7248526811321577	CMakeFiles/GUIProject.dir/fivexfiveboard.cpp.obj	e51830c451f7e483
-2640	2976	7249032341052265	GUIProject.exe	315579f0c5bc74f4
-618	2380	7248526819965576	CMakeFiles/GUIProject.dir/GameManager.cpp.obj	c966926e975371cc
-603	2775	7248526823892542	CMakeFiles/GUIProject.dir/main.cpp.obj	65628536dc007965
-684	2516	7249031486738676	CMakeFiles/GUIProject.dir/GUIProject_autogen/mocs_compilation.cpp.obj	b999958364324370
-607	2892	7248526825082995	CMakeFiles/GUIProject.dir/collectfourplayer.cpp.obj	c49329be79333278
-192	2447	7249032335788710	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	b7a36b1f5e6faa0b
-620	2953	7248526825712567	CMakeFiles/GUIProject.dir/Player.cpp.obj	8c67c05269608a2c
-200	2560	7249032336909989	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	efd14d86f8c40f65
-195	2639	7249032337710815	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	362e95d5f79c8f5b
-25	1260	7249050985544828	GUIProject_autogen/timestamp	a606344c73834c16
-25	1260	7249050985544828	GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-25	1260	7249050985544828	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	a606344c73834c16
-25	1260	7249050985544828	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-1273	1900	7249050993121699	CMakeFiles/GUIProject.dir/fivexfiveboard.cpp.obj	e51830c451f7e483
-1290	2238	7249050996494760	CMakeFiles/GUIProject.dir/X_O_Board.cpp.obj	2d41bf5891469106
-1264	3233	7249051006433771	CMakeFiles/GUIProject.dir/main.cpp.obj	65628536dc007965
-1260	3343	7249051007544780	CMakeFiles/GUIProject.dir/GUIProject_autogen/mocs_compilation.cpp.obj	b999958364324370
-1267	3397	7249051008085268	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	b7a36b1f5e6faa0b
-1276	3453	7249051008645781	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	e9f07b2cbdd69684
-1284	3461	7249051008725861	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	cf9955e7e2d9aadf
-1282	3506	7249051009176257	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	efd14d86f8c40f65
-1279	3541	7249051009526574	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	362e95d5f79c8f5b
-3541	3929	7249051013371734	GUIProject.exe	de1eee3d903be6aa
-16	378	7249051460101949	GUIProject_autogen/timestamp	a606344c73834c16
-16	378	7249051460101949	GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-16	378	7249051460101949	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	a606344c73834c16
-16	378	7249051460101949	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-404	3005	7249051486418549	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	e9f07b2cbdd69684
-397	3018	7249051486668779	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	b7a36b1f5e6faa0b
-407	3087	7249051487349393	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	cf9955e7e2d9aadf
-410	3133	7249051487799803	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	efd14d86f8c40f65
-401	3214	7249051488620554	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	362e95d5f79c8f5b
-3214	3610	7249051492564130	GUIProject.exe	de1eee3d903be6aa
-10	247	7249055272734643	GUIProject_autogen/timestamp	a606344c73834c16
-10	247	7249055272734643	GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-10	247	7249055272734643	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	a606344c73834c16
-10	247	7249055272734643	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-269	3373	7249055293853689	CMakeFiles/GUIProject.dir/collectfourboard.cpp.obj	cb7d2155f8bbf45b
-284	4357	7249055313826707	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	cf9955e7e2d9aadf
-281	4440	7249055314667470	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	efd14d86f8c40f65
-276	4448	7249055314737531	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	e9f07b2cbdd69684
-266	4518	7249055315448177	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	b7a36b1f5e6faa0b
-272	4558	7249055315848541	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	362e95d5f79c8f5b
-4558	5242	7249055322646952	GUIProject.exe	de1eee3d903be6aa
-5	136	7249055598042590	GUIProject_autogen/timestamp	a606344c73834c16
-5	136	7249055598042590	GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-5	136	7249055598042590	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	a606344c73834c16
-5	136	7249055598042590	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-147	1801	7249055614695999	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	b7a36b1f5e6faa0b
-155	1870	7249055615376618	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	efd14d86f8c40f65
-157	1873	7249055615416661	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	cf9955e7e2d9aadf
-150	1901	7249055615696908	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	e9f07b2cbdd69684
-152	2008	7249055616767880	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	362e95d5f79c8f5b
-2008	2386	7249055620521862	GUIProject.exe	de1eee3d903be6aa
-25	583	7249055726979652	GUIProject_autogen/timestamp	a606344c73834c16
-25	583	7249055726979652	GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-25	583	7249055726979652	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	a606344c73834c16
-25	583	7249055726979652	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-602	2879	7249055750662894	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	b7a36b1f5e6faa0b
-616	2965	7249055751533685	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	efd14d86f8c40f65
-608	3001	7249055751884002	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	e9f07b2cbdd69684
-613	3034	7249055752224314	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	cf9955e7e2d9aadf
-605	3119	7249055753075080	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	362e95d5f79c8f5b
-3119	3490	7249055756758422	GUIProject.exe	de1eee3d903be6aa
-9	133	7249056204607247	GUIProject_autogen/timestamp	a606344c73834c16
-9	133	7249056204607247	GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-9	133	7249056204607247	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	a606344c73834c16
-9	133	7249056204607247	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-145	566	7249056208931163	CMakeFiles/GUIProject.dir/collectfourboard.cpp.obj	cb7d2155f8bbf45b
-147	1808	7249056221342420	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	b7a36b1f5e6faa0b
-157	1884	7249056222103109	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	cf9955e7e2d9aadf
-154	1887	7249056222143145	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	efd14d86f8c40f65
-152	1923	7249056222493468	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	e9f07b2cbdd69684
-150	1991	7249056223184094	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	362e95d5f79c8f5b
-1992	2361	7249056226840712	GUIProject.exe	de1eee3d903be6aa
-4	211	7249323588314916	GUIProject_autogen/timestamp	a606344c73834c16
-4	211	7249323588314916	GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-4	211	7249323588314916	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	a606344c73834c16
-4	211	7249323588314916	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-221	2124	7249323607443134	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	b7a36b1f5e6faa0b
-228	2134	7249323607533215	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	efd14d86f8c40f65
-230	2135	7249323607533215	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	cf9955e7e2d9aadf
-224	2139	7249323607583263	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	e9f07b2cbdd69684
-226	2245	7249323608644223	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	362e95d5f79c8f5b
-2246	2938	7249323615553174	GUIProject.exe	de1eee3d903be6aa
-5	122	7249329606379084	GUIProject_autogen/timestamp	a606344c73834c16
-5	122	7249329606379084	GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-5	122	7249329606379084	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	a606344c73834c16
-5	122	7249329606379084	D:/FCAI/third term/OOP/OOP---Assignment-3/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	a606344c73834c16
-133	1830	7249329623442416	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	b7a36b1f5e6faa0b
-137	1894	7249329624082267	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	e9f07b2cbdd69684
-142	1923	7249329624371894	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	efd14d86f8c40f65
-139	1964	7249329624772258	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	cf9955e7e2d9aadf
-135	2027	7249329625411897	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	362e95d5f79c8f5b
-2027	2433	7249329629436545	GUIProject.exe	de1eee3d903be6aa
->>>>>>> 70a130320661822887f776e444a105bb785f1066
+115	1011	7249342287978584	build.ninja	20f8af5be971a26f
+1	1984	7249342307262801	GUIProject_autogen/timestamp	b80f7fcd7f0fef85
+1	1984	7249342307262801	GUIProject_autogen/mocs_compilation.cpp	b80f7fcd7f0fef85
+1	1984	7249342307262801	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	b80f7fcd7f0fef85
+1	1984	7249342307262801	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	b80f7fcd7f0fef85
+2022	3280	7249342320415712	CMakeFiles/GUIProject.dir/fivexfive_gamemanager.cpp.obj	98e5e9e82b3cc61b
+2023	3639	7249342320495784	CMakeFiles/GUIProject.dir/fivexfiveplayer.cpp.obj	9c2782cab63388b4
+1988	3643	7249342320555623	CMakeFiles/GUIProject.dir/RandomPlayer.cpp.obj	82ada550b7f20a21
+2016	3645	7249342320925773	CMakeFiles/GUIProject.dir/pyramid_x_o_player.cpp.obj	e20d7b9f68ed6205
+2019	3910	7249342326695377	CMakeFiles/GUIProject.dir/AI_Player.cpp.obj	d5003d5e40830747
+2021	4454	7249342332032965	CMakeFiles/GUIProject.dir/X_O_Board.cpp.obj	67e88f4d414b450f
+3643	7720	7249342359087063	CMakeFiles/GUIProject.dir/pyramid_x_o_board.cpp.obj	ad626f750b7eb560
+3645	8265	7249342359067120	CMakeFiles/GUIProject.dir/fivexfiveboard.cpp.obj	8e1295f10fc98d2f
+2017	8439	7249342370630291	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	4a2f2f4ca80c7dcc
+3640	8629	7249342374150870	CMakeFiles/GUIProject.dir/GameManager.cpp.obj	66f1b2b37b5f9c7f
+4454	8880	7249342375425463	CMakeFiles/GUIProject.dir/main.cpp.obj	22d35aa8e5c63d08
+3911	9701	7249342374888896	CMakeFiles/GUIProject.dir/GUIProject_autogen/mocs_compilation.cpp.obj	ee23470bd6fdc084
+3635	9813	7249342375784490	CMakeFiles/GUIProject.dir/Player.cpp.obj	b2d57edd33d134b0
+2020	9821	7249342384972114	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	aa0fb648bef0837b
+1986	9823	7249342380187818	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	f284896f2636e121
+14	276	7249343080305411	GUIProject_autogen/timestamp	b80f7fcd7f0fef85
+14	276	7249343080305411	GUIProject_autogen/mocs_compilation.cpp	b80f7fcd7f0fef85
+14	276	7249343080305411	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	b80f7fcd7f0fef85
+14	276	7249343080305411	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	b80f7fcd7f0fef85
+286	1379	7249343091337263	CMakeFiles/GUIProject.dir/collectfourboard.cpp.obj	d8a0a2f712a979a6
+287	4134	7249343118836239	CMakeFiles/GUIProject.dir/collectfourplayer.cpp.obj	694ae04571253e95
+288	4557	7249343123104402	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	cef9004b120ffcac
+292	4683	7249343124285756	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	4a2f2f4ca80c7dcc
+289	4689	7249343124415163	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	b4f14021ec378f90
+291	4820	7249343125724023	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	aa0fb648bef0837b
+290	5045	7249343127987980	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	f284896f2636e121
+5045	6013	7249343137447729	GUIProject.exe	470fa7628fe2e05a
+8	258	7249344961668902	GUIProject_autogen/timestamp	b80f7fcd7f0fef85
+8	258	7249344961668902	GUIProject_autogen/mocs_compilation.cpp	b80f7fcd7f0fef85
+8	258	7249344961668902	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	b80f7fcd7f0fef85
+8	258	7249344961668902	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	b80f7fcd7f0fef85
+269	4292	7249345002001830	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	cef9004b120ffcac
+274	4366	7249345002741916	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	aa0fb648bef0837b
+273	4405	7249345003132591	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	4a2f2f4ca80c7dcc
+270	4435	7249345003431795	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	b4f14021ec378f90
+272	4578	7249345004851777	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	f284896f2636e121
+4578	5304	7249345012078451	GUIProject.exe	470fa7628fe2e05a
+5	101	7249352198698368	GUIProject_autogen/timestamp	b80f7fcd7f0fef85
+5	101	7249352198698368	GUIProject_autogen/mocs_compilation.cpp	b80f7fcd7f0fef85
+5	101	7249352198698368	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp	b80f7fcd7f0fef85
+5	101	7249352198698368	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp	b80f7fcd7f0fef85
+110	2573	7249352223412326	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	cef9004b120ffcac
+112	2701	7249352224688834	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	4a2f2f4ca80c7dcc
+114	2732	7249352224998005	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	aa0fb648bef0837b
+111	2815	7249352225826148	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	b4f14021ec378f90
+112	2895	7249352226635502	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	f284896f2636e121
+2895	3513	7249352232754934	GUIProject.exe	470fa7628fe2e05a

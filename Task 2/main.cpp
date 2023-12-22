@@ -36,7 +36,7 @@ int choice1;
                 cout << "Press 1 for hard: ";
                 cin >> choice1;
                 if (choice1 == 1)
-                    players[1] = new AI_Player('O', board);
+                    players[1] = new AI_Player('O', board, 0);
                 else
                     players[1] = new RandomPlayer('o', 7);
             }
@@ -55,7 +55,7 @@ int choice1;
                 cout << "Press 1 for hard: ";
                 cin >> choice1;
                 if (choice1 == 1)
-                    players[1] = new AI_Player('O', board);
+                    players[1] = new AI_Player('O', board, 1);
                 else
                     players[1] = new RandomPlayer('o', 5);
             }
@@ -74,7 +74,7 @@ int choice1;
                 cout << "Press 1 for hard: ";
                 cin >> choice1;
                 if (choice1 == 1)
-                    players[1] = new AI_Player('O', board);
+                    players[1] = new AI_Player('O', board, 2);
                 else
                     players[1] = new RandomPlayer('o', 5);
             }
