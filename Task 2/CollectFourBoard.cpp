@@ -168,5 +168,5 @@ int CollectFourBoard::eval_game(char curr_player, int depth) {
         }
     }
 
-    return (curr_player == 'X') ? (scoreX - scoreO) : -(scoreX - scoreO);
+    return (curr_player == 'X') ? -(scoreX - scoreO) : (scoreX - scoreO);
 }
