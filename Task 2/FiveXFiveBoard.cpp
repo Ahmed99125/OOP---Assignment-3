@@ -21,16 +21,16 @@ bool FiveXFiveBoard::update_board(int x, int y, char mark)
     {
         board[x][y] = toupper(mark);
         n_moves++;
-        if(n_moves == 24) {
-            for(int i=0; i<5; ++i) {
-                for(int j=0; j<5; ++j) {
-                    if(board[i][j] == 0) {
-                        board[i][j] = toupper('x');
-                        n_moves++;
-                    }
-                }
-            }
-        }
+//        if(n_moves == 24) {
+//            for(int i=0; i<5; ++i) {
+//                for(int j=0; j<5; ++j) {
+//                    if(board[i][j] == 0) {
+//                        board[i][j] = toupper('x');
+//                        n_moves++;
+//                    }
+//                }
+//            }
+//        }
         return true;
     }
     else
@@ -316,7 +316,7 @@ bool FiveXFiveBoard::is_draw()
 
 bool FiveXFiveBoard::game_is_over()
 {
-    return n_moves >= 25;
+    return n_moves >= 24;
 }
 
 
@@ -351,175 +351,54 @@ int FiveXFiveBoard::get_n_cols() const {
     return n_cols;
 }
 
-int FiveXFiveBoard::eval_game(char curr_player) {
-    int countX_threes = 0, countO_threes = 0, countX_twos = 0, countO_twos = 0;
+int FiveXFiveBoard::eval_game(char curr_player, int depth) {
+    if (game_is_over()){
+        if (is_draw())
+            return 0;
+        if(is_winner())
+            return (curr_player == 'X') ? -(1000+depth) : (1000+depth);
+    }
 
-    // Rows and Columns wins counts.
+    int scoreX = 0, scoreO = 0;
 
-    for (int i = 0; i < 5; ++i)
-    {
-        if (board[i][0] == board[i][1] && board[i][1] == board[i][2])
-        {
-            char val = board[i][0];
-            if (val == 'X')
-                countX_threes++;
-            else if (val == 'O')
-                countO_threes++;
-        }
-        if (board[i][1] == board[i][2] && board[i][2] == board[i][3])
-        {
-            char val = board[i][1];
-            if (val == 'X')
-                countX_threes++;
-            else if (val == 'O')
-                countO_threes++;
-        }
-        if (board[i][2] == board[i][3] && board[i][3] == board[i][4])
-        {
-            char val = board[i][2];
-            if (val == 'X')
-                countX_threes++;
-            else if (val == 'O')
-                countO_threes++;
-        }
+    auto check = [] (int i, int j, int limit) -> bool {
+        return (i + j < 0 || i + j >= limit);
+    };
 
-        for (int j = 0; j < 4; j++) {
-            if (board[i][j] == board[i][j+1]) {
-                if (board[i][j] == 'X')
-                    countX_twos++;
-                else if (board[i][j] == 'O')
-                    countO_twos++;
+    auto update = [&] (int i, int j, int i1, int j1, int i2, int j2) {
+        if (check(i, i1, 5) || check(i, i2, 5) || check(j, j1, 5) || check(j, j2, 5))
+            return 0;
+        int ans = board[i][j] + board[i + i1][j + j1] + board[i + i2][j + j2];
+        if (ans % board[i][j] == 0) {
+            ans /= board[i][j];
+            return (ans * ans);
+        }
+        return 0;
+    };
+
+
+    for (int i = 0; i < n_rows; i++) {
+        for (int j = 0; j < n_cols; j++) {
+            int score = 0;
+            int arr[] = {-2, -1, 1, 2};
+            if (board[i][j] != 0) {
+                for (int k = 0; k < 3; k++) {
+                    // horizontal
+                    score += update(i, j, 0, arr[k], 0, arr[k+1]);
+                    // vertical
+                    score += 3 * update(i, j, arr[k], 0, arr[k+1], 0);
+                    // diagonal
+                    score += update(i, j, arr[k], arr[k], arr[k+1], arr[k+1]);
+                    score += update(i, j, -arr[k], arr[k], -arr[k+1], arr[k+1]);
+                }
             }
+
+            if (board[i][j] == 'X')
+                scoreX += score;
+            else if (board[i][j] == 'O')
+                scoreO += score;
         }
     }
 
-    for (int i = 0; i < 5; ++i)
-    {
-        if (board[0][i] == board[1][i] && board[1][i] == board[2][i])
-        {
-            char val = board[0][i];
-            if (val == 'X')
-                countX_threes++;
-            else if (val == 'O')
-                countO_threes++;
-        }
-        if (board[1][i] == board[2][i] && board[2][i] == board[3][i])
-        {
-            char val = board[1][i];
-            if (val == 'X')
-                countX_threes++;
-            else if (val == 'O')
-                countO_threes++;
-        }
-        if (board[2][i] == board[3][i] && board[3][i] == board[4][i])
-        {
-            char val = board[2][i];
-            if (val == 'X')
-                countX_threes++;
-            else if (val == 'O')
-                countO_threes++;
-        }
-
-        for (int j = 0; j < 4; j++) {
-            if (board[j][i] == board[j+1][i]) {
-                if (board[j][i] == 'X')
-                    countX_twos++;
-                else if (board[j][i] == 'O')
-                    countO_twos++;
-            }
-        }
-    }
-
-    // Diagonal wins counts
-
-    for (int i = 1; i < 3; i++) {
-        for (int j = 1; j < 3; j++) {
-            if (board[i][j] == board[i-1][j-1]) {
-                if (board[i][j] == 'X')
-                    countX_twos++;
-                else if (board[i][j] == 'O')
-                    countO_twos++;
-            }
-            if (board[i][j] == board[i-1][j+1]) {
-                if (board[i][j] == 'X')
-                    countX_twos++;
-                else if (board[i][j] == 'O')
-                    countO_twos++;
-            }
-            if (board[i][j] == board[i+1][j-1]) {
-                if (board[i][j] == 'X')
-                    countX_twos++;
-                else if (board[i][j] == 'O')
-                    countO_twos++;
-            }
-            if (board[i][j] == board[i+1][j+1]) {
-                if (board[i][j] == 'X')
-                    countX_twos++;
-                else if (board[i][j] == 'O')
-                    countO_twos++;
-            }
-        }
-    }
-
-    for (int i = 0; i < 3; ++i)
-    {
-        if (board[i][i] == board[i + 1][i + 1] && board[i + 1][i + 1] == board[i + 2][i + 2])
-        {
-            char val = board[i][i];
-            if (val == 'X')
-                countX_threes++;
-            else if (val == 'O')
-                countO_threes++;
-        }
-    }
-
-    for (int i = 0; i < 2; ++i)
-    {
-        if (board[i + 1][i] == board[i + 2][i + 1] && board[i + 2][i + 1] == board[i + 3][i + 2])
-        {
-            char val = board[i + 1][i];
-            if (val == 'X')
-                countX_threes++;
-            else if (val == 'O')
-                countO_threes++;
-        }
-    }
-
-    if (board[1][4] == board[2][3] && board[2][3] == board[3][2])
-    {
-        char val = board[1][4];
-        if (val == 'X')
-            countX_threes++;
-        else if (val == 'O')
-            countO_threes++;
-    }
-
-    if (board[2][3] == board[3][2] && board[3][2] == board[4][1])
-    {
-        char val = board[2][3];
-        if (val == 'X')
-            countX_threes++;
-        else if (val == 'O')
-            countO_threes++;
-    }
-
-    if (board[2][0] == board[3][1] && board[3][1] == board[4][2])
-    {
-        char val = board[2][0];
-        if (val == 'X')
-            countX_threes++;
-        else if (val == 'O')
-            countO_threes++;
-    }
-
-    if (board[0][2] == board[1][3] && board[1][3] == board[2][4])
-    {
-        char val = board[0][2];
-        if (val == 'X')
-            countX_threes++;
-        else if (val == 'O')
-            countO_threes++;
-    }
-
-    return (18 * countO_threes + 3 * countO_twos) - (18 * countX_threes + 3 * countX_twos);
+    return (curr_player == 'X') ? (scoreX - scoreO) : -(scoreX - scoreO);
 }

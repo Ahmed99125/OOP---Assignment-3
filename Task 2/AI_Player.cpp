@@ -23,12 +23,8 @@ AI_Player::AI_Player(char symbol, Board* board_ptr) : Player(symbol) {
 
 int AI_Player::minimax(int depth, char curr_Player, int alpha, int beta) {
     is_pruned = false;
-    if (board->is_draw())
-        return 0;
-    if (board->is_winner())
-        return (curr_Player == 'X') ? -(1000+depth) : 1000+depth;
     if (!depth)
-        return board->eval_game(curr_Player);
+        return board->eval_game(curr_Player, depth);
 
     int best_moveX = 0, best_moveY = 0;
     char next_Player = (curr_Player == 'X') ? 'O' : 'X';
@@ -105,6 +101,6 @@ int AI_Player::minimax(int depth, char curr_Player, int alpha, int beta) {
 
 void AI_Player::get_move(int &x, int &y) {
     bestMove = {-1, -1};
-    minimax(5, this->get_symbol(), -INT_MAX, INT_MAX);
+    minimax(9, this->get_symbol(), -INT_MAX, INT_MAX);
     x = bestMove.first, y = bestMove.second;
 }

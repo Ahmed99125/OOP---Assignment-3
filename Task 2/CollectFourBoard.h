@@ -28,7 +28,7 @@ public:
     // Return n_rows
     int get_n_cols() const;
 
-    int eval_game(char curr_player);
+    int eval_game(char curr_player, int depth);
 };
 
 #endif

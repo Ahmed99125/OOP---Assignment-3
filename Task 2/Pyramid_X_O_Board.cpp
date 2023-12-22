@@ -115,6 +115,11 @@ int Pyramid_X_O_Board::get_n_cols() const {
     return n_cols;
 }
 
-int Pyramid_X_O_Board::eval_game(char curr_player) {
-    return 0;
+int Pyramid_X_O_Board::eval_game(char curr_player, int depth) {
+    if (is_winner()) {
+        return (curr_player == 'X') ? -(1000+depth) : 1000+depth;
+    }
+    if (is_draw()) {
+        return 0;
+    }
 }
