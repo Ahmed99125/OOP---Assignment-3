@@ -62,6 +62,13 @@ void FiveXFiveGame::move(int col, int row,QPushButton *button){
         }
         //board->display_board();
         if(board->game_is_over()){
+            if(board->is_draw()){
+                QMessageBox msBox;
+                msBox.setText("Draw");
+                msBox.exec();
+                closeButtons();
+                return;
+            }
             if(board->is_winner()){
                 QMessageBox msBox;
                 msBox.setText("Plyer1 won");
@@ -81,13 +88,7 @@ void FiveXFiveGame::move(int col, int row,QPushButton *button){
             return;
         }
        // cout<< "hi";
-        if(board->is_draw()){
-            QMessageBox msBox;
-            msBox.setText("Draw");
-            msBox.exec();
-            closeButtons();
-            return;
-        }
+
         IsPlayer1 = !IsPlayer1;
         if(isRandomSecPlayer){
             int x,y;
@@ -97,6 +98,13 @@ void FiveXFiveGame::move(int col, int row,QPushButton *button){
             buttons[x][y]->setText("O");
             IsPlayer1 = !IsPlayer1;
             if(board->game_is_over()){
+                if(board->is_draw()){
+                    QMessageBox msBox;
+                    msBox.setText("Draw");
+                    msBox.exec();
+                    closeButtons();
+                    return;
+                }
                 if(board->is_winner()){
                     QMessageBox msBox;
                     msBox.setText("Plyer1 won");
@@ -111,13 +119,7 @@ void FiveXFiveGame::move(int col, int row,QPushButton *button){
                     return;
                 }
             }
-            if(board->is_draw()){
-                QMessageBox msBox;
-                msBox.setText("Draw");
-                msBox.exec();
-                closeButtons();
-                return;
-            }
+
            // board->display_board();
         }
     }else{
