@@ -115,6 +115,6 @@ int Pyramid_X_O_Board::get_n_cols() const {
     return n_cols;
 }
 
-int Pyramid_X_O_Board::eval_game() {
-
+int Pyramid_X_O_Board::eval_game(char curr_player) {
+    return 0;
 }

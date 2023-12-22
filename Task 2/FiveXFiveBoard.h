@@ -33,7 +33,7 @@ public:
     // Return n_rows
     int get_n_cols() const;
 
-    int eval_game();
+    int eval_game(char curr_player);
 };
 
 #endif //NEW_FOLDER_5X5BOARD_H

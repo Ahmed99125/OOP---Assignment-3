@@ -13,14 +13,14 @@ void FiveXFive_GameManager::run() {
             }
             boardPtr->display_board();
             if (boardPtr->game_is_over()){
+                if (boardPtr->is_draw()){
+                    cout << "Draw!\n";
+                    return;
+                }
                 if(boardPtr->is_winner())
                     cout << players[0]->to_string() << " wins\n";
                 else
                     cout << players[1]->to_string() << " wins\n";
-                return;
-            }
-            if (boardPtr->is_draw()){
-                cout << "Draw!\n";
                 return;
             }
         }

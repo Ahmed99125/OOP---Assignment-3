@@ -222,19 +222,19 @@ CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\RandomPlayer.cpp" -o CMakeFiles\mohamed_final_test.dir\RandomPlayer.cpp.s
 
-CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
-CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj: ../Pyramid_X_O_AI.cpp
-CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_AI.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_AI.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Pyramid_X_O_AI.cpp"
+CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.obj: CMakeFiles/mohamed_final_test.dir/flags.make
+CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.obj: ../AI_Player.cpp
+CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.obj: CMakeFiles/mohamed_final_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.obj -MF CMakeFiles\mohamed_final_test.dir\AI_Player.cpp.obj.d -o CMakeFiles\mohamed_final_test.dir\AI_Player.cpp.obj -c "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\AI_Player.cpp"
 
-CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Pyramid_X_O_AI.cpp" > CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_AI.cpp.i
+CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\AI_Player.cpp" > CMakeFiles\mohamed_final_test.dir\AI_Player.cpp.i
 
-CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\Pyramid_X_O_AI.cpp" -o CMakeFiles\mohamed_final_test.dir\Pyramid_X_O_AI.cpp.s
+CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Documents\FCAI\OOP\OOP---Assignment-3-main\Task 2\AI_Player.cpp" -o CMakeFiles\mohamed_final_test.dir\AI_Player.cpp.s
 
 # Object files for target mohamed_final_test
 mohamed_final_test_OBJECTS = \
@@ -249,7 +249,7 @@ mohamed_final_test_OBJECTS = \
 "CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.obj" \
 "CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.obj" \
 "CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.obj" \
-"CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj"
+"CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.obj"
 
 # External object files for target mohamed_final_test
 mohamed_final_test_EXTERNAL_OBJECTS =
@@ -265,7 +265,7 @@ mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/Player.cpp.obj
 mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.obj
 mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.obj
 mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.obj
-mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj
+mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.obj
 mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/build.make
 mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/linklibs.rsp
 mohamed_final_test.exe: CMakeFiles/mohamed_final_test.dir/objects1.rsp

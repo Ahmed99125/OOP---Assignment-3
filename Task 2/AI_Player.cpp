@@ -1,18 +1,34 @@
-#include "Pyramid_X_O_AI.h"
+#include "AI_Player.h"
 
-Pyramid_X_O_AI::Pyramid_X_O_AI(char symbol, Board* board_ptr) : Player(symbol) {
+AI_Player::AI_Player(char symbol, Board* board_ptr) : Player(symbol) {
     this->board = board_ptr;
     name = "Computer AI";
+    int rows = board->get_n_rows(), cols = board->get_n_cols();
+    int mid_rows = rows / 2, mid_cols = cols / 2;
+
+    for (int i = 0; i <= mid_rows; i++) {
+        int idx1 = mid_rows-i, idx2 = mid_rows+i;
+        dimensionX.push_back(idx1);
+        if (idx2 != idx1 && idx2 < rows)
+            dimensionX.push_back(idx2);
+    }
+
+    for (int i = 0; i <= mid_cols; i++) {
+        int idx1 = mid_cols-i, idx2 = mid_cols+i;
+        dimensionY.push_back(idx1);
+        if (idx2 != idx1 && idx2 < cols)
+            dimensionY.push_back(idx2);
+    }
 }
 
-int Pyramid_X_O_AI::minimax(int depth, char curr_Player, int alpha, int beta) {
+int AI_Player::minimax(int depth, char curr_Player, int alpha, int beta) {
     is_pruned = false;
-    if (board->is_winner())
-        return (curr_Player == 'X') ? -depth : depth;
     if (board->is_draw())
         return 0;
+    if (board->is_winner())
+        return (curr_Player == 'X') ? -(1000+depth) : 1000+depth;
     if (!depth)
-        return (curr_Player == 'X') ? -board->eval_game() : board->eval_game();
+        return board->eval_game(curr_Player);
 
     int best_moveX = 0, best_moveY = 0;
     char next_Player = (curr_Player == 'X') ? 'O' : 'X';
@@ -20,8 +36,8 @@ int Pyramid_X_O_AI::minimax(int depth, char curr_Player, int alpha, int beta) {
     // if curr player is X
     if (curr_Player == 'X') {
         int max_score = -INT_MAX, score = -INT_MAX;
-        for (int i = 0; i < board->get_n_rows(); i++) {
-            for (int j = 0; j < board->get_n_cols(); j++) {
+        for (auto i : dimensionX) {
+            for (auto j : dimensionY) {
                 if (board->update_board(i, j, curr_Player)) {
                     string s_board = board->get_board();
 
@@ -47,14 +63,15 @@ int Pyramid_X_O_AI::minimax(int depth, char curr_Player, int alpha, int beta) {
                 }
             }
         }
+
         out1:;
         bestMove = {best_moveX, best_moveY};
         return max_score;
     }
     else {
         int min_score = INT_MAX, score = INT_MAX;
-        for (int i = 0; i < board->get_n_rows(); i++) {
-            for (int j = 0; j < board->get_n_cols(); j++) {
+        for (auto i : dimensionX) {
+            for (auto j : dimensionY) {
                 if (board->update_board(i, j, curr_Player)) {
                     string s_board = board->get_board();
 
@@ -86,9 +103,8 @@ int Pyramid_X_O_AI::minimax(int depth, char curr_Player, int alpha, int beta) {
     }
 }
 
-void Pyramid_X_O_AI::get_move(int &x, int &y) {
+void AI_Player::get_move(int &x, int &y) {
     bestMove = {-1, -1};
-    minimax(10, this->get_symbol(), -INT_MAX, INT_MAX);
+    minimax(5, this->get_symbol(), -INT_MAX, INT_MAX);
     x = bestMove.first, y = bestMove.second;
-    cout << x << ' ' << y << endl;
 }

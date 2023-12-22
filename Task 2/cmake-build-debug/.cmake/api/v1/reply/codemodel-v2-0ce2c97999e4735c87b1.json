@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "mohamed_final_test",
+					"name" : "Task_2",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "mohamed_final_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mohamed_final_test-Debug-4dabb6accc2b2abf6fd2.json",
-					"name" : "mohamed_final_test",
+					"id" : "Task_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Task_2-Debug-2e7251ff54c7e0beee31.json",
+					"name" : "Task_2",
 					"projectIndex" : 0
 				}
 			]

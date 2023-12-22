@@ -41,7 +41,7 @@ public:
     // Return n_rows
     virtual int get_n_cols() const = 0;
     // Estimate game
-    virtual int eval_game() = 0;
+    virtual int eval_game(char curr_player) = 0;
 };
 
 ///////////////////////////////////////////

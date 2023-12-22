@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.obj"
+  "CMakeFiles/mohamed_final_test.dir/AI_Player.cpp.obj.d"
   "CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.obj"
   "CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.obj.d"
   "CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.obj"
@@ -13,8 +15,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/mohamed_final_test.dir/GameManager.cpp.obj.d"
   "CMakeFiles/mohamed_final_test.dir/Player.cpp.obj"
   "CMakeFiles/mohamed_final_test.dir/Player.cpp.obj.d"
-  "CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj"
-  "CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj.d"
   "CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.obj"
   "CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.obj.d"
   "CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.obj"

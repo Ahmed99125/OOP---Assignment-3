@@ -6,7 +6,7 @@
 #include "FiveXFive_GameManager.h"
 #include "Pyramid_X_O_Board.h"
 #include "Pyramid_X_O_Player.h"
-#include "Pyramid_X_O_AI.h"
+#include "AI_Player.h"
 
 int main() {
 int choice;
@@ -33,7 +33,12 @@ int choice1;
                 players[1] = new Pyramid_X_O_Player(2, 'O');
             } else {
                 //Player pointer points to child
-                players[1] = new Pyramid_X_O_AI('O', board);
+                cout << "Press 1 for hard: ";
+                cin >> choice1;
+                if (choice1 == 1)
+                    players[1] = new AI_Player('O', board);
+                else
+                    players[1] = new RandomPlayer('o', 7);
             }
             GameManager Pyramid_X_O (board, players);
             Pyramid_X_O.run();
@@ -47,7 +52,12 @@ int choice1;
                 players[1] = new CollectFourPlayer(2, 'o');
             } else {
                 //Player pointer points to child
-                players[1] = new Pyramid_X_O_AI('O', board);
+                cout << "Press 1 for hard: ";
+                cin >> choice1;
+                if (choice1 == 1)
+                    players[1] = new AI_Player('O', board);
+                else
+                    players[1] = new RandomPlayer('o', 5);
             }
             GameManager collectFour(board, players);
             collectFour.run();
@@ -59,9 +69,15 @@ int choice1;
             cin >> choice1;
             if (choice1 != 1)
                 players[1] = new FiveXFivePlayer(2, 'o');
-            else
+            else {
                 //Player pointer points to child
-                players[1] = new RandomPlayer('o', 5);
+                cout << "Press 1 for hard: ";
+                cin >> choice1;
+                if (choice1 == 1)
+                    players[1] = new AI_Player('O', board);
+                else
+                    players[1] = new RandomPlayer('o', 5);
+            }
             FiveXFive_GameManager FiveXFive (board, players);
             FiveXFive.run();
         }

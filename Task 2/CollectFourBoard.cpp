@@ -126,41 +126,186 @@ string CollectFourBoard::get_board() const {
     return ans;
 }
 
-int CollectFourBoard::eval_game() {
-    map <int, int> counter;
+//int CollectFourBoard::eval_game(char curr_player) {
+//    unordered_map <int, int> xy_counterX, diag_counterX, xy_counterO, diag_counterO;
+//
+//    auto check = [this] (int &x, int &y) -> bool {
+//        return !(x < 0 || x >= n_rows || y < 0 || y >= n_cols);
+//    };
+//
+//    auto diagCnt = [this, check] (int x, int y, char prev, int i, int j, auto&& diagCnt) -> int {
+//        if (!check(x, y) || board[x][y] != prev)
+//            return 0;
+//        return 1 + diagCnt(x+i, y+j, board[x][y], i, j, diagCnt);
+//    };
+//
+//    int cntX_H = 0, cntO_H = 0;
+//    for (int i = 0; i < n_rows; i++) {
+//        cntX_H = 0, cntO_H = 0;
+//        for (int j = 0; j < n_cols; j++) {
+//            // Horizontal
+//            if (board[i][j] == 'X') {
+//                cntX_H++;
+//                xy_counterO[cntO_H]++;
+//                cntO_H = 0;
+//            }
+//            else if (board[i][j] == 'O') {
+//                cntO_H++;
+//                xy_counterX[cntX_H]++;
+//                cntX_H = 0;
+//            }
+////            else {
+////                xy_counterX[cntX_H]++;
+////                xy_counterO[cntO_H]++;
+////            }
+//
+//            // Diagonal
+//            if (board[i][j] == 'X') {
+//                int diag1 = diagCnt(i - 1, j + 1, board[i][j], -1, 1, diagCnt) +
+//                            diagCnt(i + 1, j - 1, board[i][j], 1, -1, diagCnt) + 1,
+//                    diag2 = diagCnt(i - 1, j - 1, board[i][j], -1, -1, diagCnt) +
+//                            diagCnt(i + 1, j + 1, board[i][j], 1, 1, diagCnt) + 1;
+//
+//                diag_counterX[diag1]++;
+//                diag_counterX[diag2]++;
+//            }
+//            else if (board[i][j] == 'O') {
+//                int diag1 = diagCnt(i - 1, j + 1, board[i][j], -1, 1, diagCnt) +
+//                            diagCnt(i + 1, j - 1, board[i][j], 1, -1, diagCnt) + 1,
+//                    diag2 = diagCnt(i - 1, j - 1, board[i][j], -1, -1, diagCnt) +
+//                            diagCnt(i + 1, j + 1, board[i][j], 1, 1, diagCnt) + 1;
+//
+//                diag_counterO[diag1]++;
+//                diag_counterO[diag2]++;
+//            }
+//        }
+//        xy_counterX[cntX_H]++;
+//        xy_counterO[cntO_H]++;
+//    }
+//
+//    for (int j = 0; j < n_cols; j++) {
+//        int cntX_V = 0, cntO_V = 0;
+//        for (int i = 0; i < n_rows; i++) {
+//            // Vertical
+//            if (board[i][j] == 'X') {
+//                cntX_V++;
+//                xy_counterO[cntO_V]++;
+//                cntO_V = 0;
+//            }
+//            else if (board[i][j] == 'O') {
+//                cntO_V++;
+//                xy_counterX[cntX_V]++;
+//                cntX_V = 0;
+//            }
+////            else {
+////                xy_counterX[cntX_V]++;
+////                xy_counterO[cntO_V]++;
+////            }
+//        }
+//        xy_counterX[cntX_V]++;
+//        xy_counterO[cntO_V]++;
+//    }
+//
+//    if (curr_player == 'X') {
+//        return -(1000 * (xy_counterX[4] + diag_counterX[4]/4) -
+//               100 * (xy_counterO[4] + diag_counterO[4]/4) +
+//               15 * (xy_counterX[3] + diag_counterX[3]/3) -
+//               15 * (xy_counterO[3] + diag_counterO[3]/3) +
+//               3 * (xy_counterX[2] + diag_counterX[2]/2) -
+//               3 * (xy_counterO[2] + diag_counterO[2]/2) +
+//               xy_counterX[1] -
+//               xy_counterO[1]);
+//    }
+//    else {
+//        return 1000 * (xy_counterO[4] + diag_counterO[4]/4) -
+//               100 * (xy_counterX[4] + diag_counterX[4]/4) +
+//               15 * (xy_counterO[3] + diag_counterO[3]/3) -
+//               15 * (xy_counterX[3] + diag_counterX[3]/3) +
+//               3 * (xy_counterO[2] + diag_counterO[2]/2) -
+//               3 * (xy_counterX[2] + diag_counterX[2]/2) +
+//               xy_counterO[1] -
+//               xy_counterX[1];
+//    }
+//}
+
+int CollectFourBoard::eval_game(char curr_player) {
+    int scoreX = 0, scoreO = 0;
+
+    auto check = [] (int i, int j, int limit) -> bool {
+        return (i + j < 0 || i + j >= limit);
+    };
+
+    auto update = [&] (int i, int j, int i1, int j1, int i2, int j2, int i3, int j3) {
+        if (check(i, i1, 6) || check(i, i3, 6) || check(j, j1, 7) || check(j, j3, 7))
+            return 0;
+        int ans = board[i][j] + board[i + i1][j + j1] + board[i + i2][j + i2] + board[i + i3][j + j3];
+        if (ans % board[i][j] == 0) {
+            ans /= board[i][j];
+            return (ans * ans);
+        }
+        return 0;
+    };
 
 
     for (int i = 0; i < n_rows; i++) {
-        int cntX_H = 0, cntO_H = 0, cntX_V = 0, cntO_V = 0;
         for (int j = 0; j < n_cols; j++) {
-            // Horizontal
-            if (board[i][j] == 'X') {
-                cntX_H = min(cntX_H+1, 4);
-                counter[cntO_H]--;
-                cntO_H = 0;
-            }
-            else if (board[i][j] == 'O') {
-                cntO_H = min(cntO_H+1, 4);
-                counter[cntX_H]++;
-                cntX_H = 0;
+            int score = 0;
+            int arr[] = {-3, -2, -1, 1, 2, 3};
+            if (board[i][j] != 0) {
+                for (int k = 0; k < 4; k++) {
+                    // horizontal
+                    score += update(i, j, 0, arr[k], 0, arr[k+1], 0, arr[k+2]);
+                    // vertical
+                    score += 3 * update(i, j, arr[k], 0, arr[k+1], 0, arr[k+2], 0);
+                    // diagonal
+                    score += update(i, j, arr[k], arr[k], arr[k+1], arr[k+1], arr[k+2], arr[k+2]);
+                    score += update(i, j, -arr[k], arr[k], -arr[k+1], arr[k+1], -arr[k+2], arr[k+2]);
+                }
+
+//                // horizontal
+//                if (j < 4)
+//                    score += update(i, j, 0, 1, 0, 2, 0, 3);
+//                if (j > 0 && j < 5)
+//                    score += update(i, j, 0, -1, 0, 1, 0, 2);
+//                if (j > 1 && j < 6)
+//                    score += update(i, j, 0, -2, 0, -1, 0, 1);
+//                if (j > 2)
+//                    score += update(i, j, 0, -1, 0, -2, 0, -3);
+//
+//                // vertical
+//                if (i < 3)
+//                    score += update(i, j, 1, 0, 2, 0, 3, 0);
+//                if (i > 0 && i < 4)
+//                    score += update(i, j, -1, 0, 1, 0, 2, 0);
+//                if (i > 1 && i < 5)
+//                    score += update(i, j, -2, 0, -1, 0, 1, 0);
+//
+//                // diagonal
+//                if (i < 3 && j < 4)
+//                    score += update(i, j, 1, 1, 2, 2, 3, 3);
+//                if (i > 0 && i < 4 && j > 0 && j < 5)
+//                    score += update(i, j, -1, -1, 1, 1, 2, 2);
+//                if (i > 1 && i < 5 && j > 1 && j < 6)
+//                    score += update(i, j, -2, -2, -1, -1, 1, 1);
+//                if (i > 2 && j > 2)
+//                    score += update(i, j, -3, -3, -2, -2, -1, -1);
+//
+//                if (i > 2 && j < 4)
+//                    score += update(i, j, -3, 3, -2, 2, -1, 1);
+//                if (i > 1 && j > 1 && j < 6)
+//                    score += update(i, j, -2, 2, -1, 1, 1, -1);
+//                if (i > 2 && j > 0 && j < 5)
+//                    score += update(i, j, -1, 1, 1, -1, 2, -2);
+//                if (i < 3 && j < 4)
+//                    score += update(i, j, 1, -1, 2, -2, 3, -3);
             }
 
-            // Vertical
-            if (board[j][i] == 'X') {
-                cntX_H = min(cntX_H+1, 4);
-                counter[cntO_H]--;
-                cntO_H = 0;
-            }
-            else if (board[j][i] == 'O') {
-                cntO_H = min(cntO_H+1, 4);
-                counter[cntX_H]++;
-                cntX_H = 0;
-            }
-
-            // Diagonal
-
+            if (board[i][j] == 'X')
+                scoreX += score;
+            else if (board[i][j] == 'O')
+                scoreO += score;
         }
     }
 
-    return 15 * counter[4] + 10 * counter[3] + 5 * counter[2] + counter[1];
+    return scoreO - scoreX;
 }

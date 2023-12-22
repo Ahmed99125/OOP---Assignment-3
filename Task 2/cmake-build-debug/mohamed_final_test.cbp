@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/AI_Player.cpp">
+			<Option target="mohamed_final_test"/>
+		</Unit>
+		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/AI_Player.h">
+			<Option target="mohamed_final_test"/>
+		</Unit>
 		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/BoardGame_Classes.hpp">
 			<Option target="mohamed_final_test"/>
 		</Unit>
@@ -119,12 +125,6 @@
 			<Option target="mohamed_final_test"/>
 		</Unit>
 		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/Player.cpp">
-			<Option target="mohamed_final_test"/>
-		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/Pyramid_X_O_AI.cpp">
-			<Option target="mohamed_final_test"/>
-		</Unit>
-		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/Pyramid_X_O_AI.h">
 			<Option target="mohamed_final_test"/>
 		</Unit>
 		<Unit filename="D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/Pyramid_X_O_Board.cpp">

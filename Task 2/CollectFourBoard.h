@@ -2,7 +2,7 @@
 #define _COLLECTFOURBOARD_H_
 
 #include "BoardGame_Classes.hpp"
-#include <map>
+#include <unordered_map>
 
 class CollectFourBoard:public Board {
 private:
@@ -28,7 +28,7 @@ public:
     // Return n_rows
     int get_n_cols() const;
 
-    int eval_game();
+    int eval_game(char curr_player);
 };
 
 #endif

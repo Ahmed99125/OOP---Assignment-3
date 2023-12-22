@@ -939,7 +939,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "mohamed_final_test"
+			"value" : "Task_2"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1316,6 +1316,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "Task_2_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2/cmake-build-debug"
+		},
+		{
+			"name" : "Task_2_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Task_2_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2"
 		},
 		{
 			"name" : "mohamed_final_test_BINARY_DIR",

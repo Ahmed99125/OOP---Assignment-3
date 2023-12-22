@@ -116,24 +116,48 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mohamed_final_test
+# Target rules for targets named Task_2
 
 # Build rule for target.
-mohamed_final_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mohamed_final_test
-.PHONY : mohamed_final_test
+Task_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Task_2
+.PHONY : Task_2
 
 # fast build rule for target.
-mohamed_final_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/build
-.PHONY : mohamed_final_test/fast
+Task_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/build
+.PHONY : Task_2/fast
+
+AI_Player.obj: AI_Player.cpp.obj
+.PHONY : AI_Player.obj
+
+# target to build an object file
+AI_Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/AI_Player.cpp.obj
+.PHONY : AI_Player.cpp.obj
+
+AI_Player.i: AI_Player.cpp.i
+.PHONY : AI_Player.i
+
+# target to preprocess a source file
+AI_Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/AI_Player.cpp.i
+.PHONY : AI_Player.cpp.i
+
+AI_Player.s: AI_Player.cpp.s
+.PHONY : AI_Player.s
+
+# target to generate assembly for a file
+AI_Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/AI_Player.cpp.s
+.PHONY : AI_Player.cpp.s
 
 CollectFourBoard.obj: CollectFourBoard.cpp.obj
 .PHONY : CollectFourBoard.obj
 
 # target to build an object file
 CollectFourBoard.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/CollectFourBoard.cpp.obj
 .PHONY : CollectFourBoard.cpp.obj
 
 CollectFourBoard.i: CollectFourBoard.cpp.i
@@ -141,7 +165,7 @@ CollectFourBoard.i: CollectFourBoard.cpp.i
 
 # target to preprocess a source file
 CollectFourBoard.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/CollectFourBoard.cpp.i
 .PHONY : CollectFourBoard.cpp.i
 
 CollectFourBoard.s: CollectFourBoard.cpp.s
@@ -149,7 +173,7 @@ CollectFourBoard.s: CollectFourBoard.cpp.s
 
 # target to generate assembly for a file
 CollectFourBoard.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/CollectFourBoard.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/CollectFourBoard.cpp.s
 .PHONY : CollectFourBoard.cpp.s
 
 CollectFourPlayer.obj: CollectFourPlayer.cpp.obj
@@ -157,7 +181,7 @@ CollectFourPlayer.obj: CollectFourPlayer.cpp.obj
 
 # target to build an object file
 CollectFourPlayer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/CollectFourPlayer.cpp.obj
 .PHONY : CollectFourPlayer.cpp.obj
 
 CollectFourPlayer.i: CollectFourPlayer.cpp.i
@@ -165,7 +189,7 @@ CollectFourPlayer.i: CollectFourPlayer.cpp.i
 
 # target to preprocess a source file
 CollectFourPlayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/CollectFourPlayer.cpp.i
 .PHONY : CollectFourPlayer.cpp.i
 
 CollectFourPlayer.s: CollectFourPlayer.cpp.s
@@ -173,7 +197,7 @@ CollectFourPlayer.s: CollectFourPlayer.cpp.s
 
 # target to generate assembly for a file
 CollectFourPlayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/CollectFourPlayer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/CollectFourPlayer.cpp.s
 .PHONY : CollectFourPlayer.cpp.s
 
 FiveXFiveBoard.obj: FiveXFiveBoard.cpp.obj
@@ -181,7 +205,7 @@ FiveXFiveBoard.obj: FiveXFiveBoard.cpp.obj
 
 # target to build an object file
 FiveXFiveBoard.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/FiveXFiveBoard.cpp.obj
 .PHONY : FiveXFiveBoard.cpp.obj
 
 FiveXFiveBoard.i: FiveXFiveBoard.cpp.i
@@ -189,7 +213,7 @@ FiveXFiveBoard.i: FiveXFiveBoard.cpp.i
 
 # target to preprocess a source file
 FiveXFiveBoard.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/FiveXFiveBoard.cpp.i
 .PHONY : FiveXFiveBoard.cpp.i
 
 FiveXFiveBoard.s: FiveXFiveBoard.cpp.s
@@ -197,7 +221,7 @@ FiveXFiveBoard.s: FiveXFiveBoard.cpp.s
 
 # target to generate assembly for a file
 FiveXFiveBoard.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/FiveXFiveBoard.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/FiveXFiveBoard.cpp.s
 .PHONY : FiveXFiveBoard.cpp.s
 
 FiveXFivePlayer.obj: FiveXFivePlayer.cpp.obj
@@ -205,7 +229,7 @@ FiveXFivePlayer.obj: FiveXFivePlayer.cpp.obj
 
 # target to build an object file
 FiveXFivePlayer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/FiveXFivePlayer.cpp.obj
 .PHONY : FiveXFivePlayer.cpp.obj
 
 FiveXFivePlayer.i: FiveXFivePlayer.cpp.i
@@ -213,7 +237,7 @@ FiveXFivePlayer.i: FiveXFivePlayer.cpp.i
 
 # target to preprocess a source file
 FiveXFivePlayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/FiveXFivePlayer.cpp.i
 .PHONY : FiveXFivePlayer.cpp.i
 
 FiveXFivePlayer.s: FiveXFivePlayer.cpp.s
@@ -221,7 +245,7 @@ FiveXFivePlayer.s: FiveXFivePlayer.cpp.s
 
 # target to generate assembly for a file
 FiveXFivePlayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/FiveXFivePlayer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/FiveXFivePlayer.cpp.s
 .PHONY : FiveXFivePlayer.cpp.s
 
 FiveXFive_GameManager.obj: FiveXFive_GameManager.cpp.obj
@@ -229,7 +253,7 @@ FiveXFive_GameManager.obj: FiveXFive_GameManager.cpp.obj
 
 # target to build an object file
 FiveXFive_GameManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/FiveXFive_GameManager.cpp.obj
 .PHONY : FiveXFive_GameManager.cpp.obj
 
 FiveXFive_GameManager.i: FiveXFive_GameManager.cpp.i
@@ -237,7 +261,7 @@ FiveXFive_GameManager.i: FiveXFive_GameManager.cpp.i
 
 # target to preprocess a source file
 FiveXFive_GameManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/FiveXFive_GameManager.cpp.i
 .PHONY : FiveXFive_GameManager.cpp.i
 
 FiveXFive_GameManager.s: FiveXFive_GameManager.cpp.s
@@ -245,7 +269,7 @@ FiveXFive_GameManager.s: FiveXFive_GameManager.cpp.s
 
 # target to generate assembly for a file
 FiveXFive_GameManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/FiveXFive_GameManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/FiveXFive_GameManager.cpp.s
 .PHONY : FiveXFive_GameManager.cpp.s
 
 GameManager.obj: GameManager.cpp.obj
@@ -253,7 +277,7 @@ GameManager.obj: GameManager.cpp.obj
 
 # target to build an object file
 GameManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/GameManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/GameManager.cpp.obj
 .PHONY : GameManager.cpp.obj
 
 GameManager.i: GameManager.cpp.i
@@ -261,7 +285,7 @@ GameManager.i: GameManager.cpp.i
 
 # target to preprocess a source file
 GameManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/GameManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/GameManager.cpp.i
 .PHONY : GameManager.cpp.i
 
 GameManager.s: GameManager.cpp.s
@@ -269,7 +293,7 @@ GameManager.s: GameManager.cpp.s
 
 # target to generate assembly for a file
 GameManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/GameManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/GameManager.cpp.s
 .PHONY : GameManager.cpp.s
 
 Player.obj: Player.cpp.obj
@@ -277,7 +301,7 @@ Player.obj: Player.cpp.obj
 
 # target to build an object file
 Player.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/Player.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/Player.cpp.obj
 .PHONY : Player.cpp.obj
 
 Player.i: Player.cpp.i
@@ -285,7 +309,7 @@ Player.i: Player.cpp.i
 
 # target to preprocess a source file
 Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/Player.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/Player.cpp.i
 .PHONY : Player.cpp.i
 
 Player.s: Player.cpp.s
@@ -293,39 +317,15 @@ Player.s: Player.cpp.s
 
 # target to generate assembly for a file
 Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/Player.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/Player.cpp.s
 .PHONY : Player.cpp.s
-
-Pyramid_X_O_AI.obj: Pyramid_X_O_AI.cpp.obj
-.PHONY : Pyramid_X_O_AI.obj
-
-# target to build an object file
-Pyramid_X_O_AI.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.obj
-.PHONY : Pyramid_X_O_AI.cpp.obj
-
-Pyramid_X_O_AI.i: Pyramid_X_O_AI.cpp.i
-.PHONY : Pyramid_X_O_AI.i
-
-# target to preprocess a source file
-Pyramid_X_O_AI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.i
-.PHONY : Pyramid_X_O_AI.cpp.i
-
-Pyramid_X_O_AI.s: Pyramid_X_O_AI.cpp.s
-.PHONY : Pyramid_X_O_AI.s
-
-# target to generate assembly for a file
-Pyramid_X_O_AI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_AI.cpp.s
-.PHONY : Pyramid_X_O_AI.cpp.s
 
 Pyramid_X_O_Board.obj: Pyramid_X_O_Board.cpp.obj
 .PHONY : Pyramid_X_O_Board.obj
 
 # target to build an object file
 Pyramid_X_O_Board.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/Pyramid_X_O_Board.cpp.obj
 .PHONY : Pyramid_X_O_Board.cpp.obj
 
 Pyramid_X_O_Board.i: Pyramid_X_O_Board.cpp.i
@@ -333,7 +333,7 @@ Pyramid_X_O_Board.i: Pyramid_X_O_Board.cpp.i
 
 # target to preprocess a source file
 Pyramid_X_O_Board.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/Pyramid_X_O_Board.cpp.i
 .PHONY : Pyramid_X_O_Board.cpp.i
 
 Pyramid_X_O_Board.s: Pyramid_X_O_Board.cpp.s
@@ -341,7 +341,7 @@ Pyramid_X_O_Board.s: Pyramid_X_O_Board.cpp.s
 
 # target to generate assembly for a file
 Pyramid_X_O_Board.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Board.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/Pyramid_X_O_Board.cpp.s
 .PHONY : Pyramid_X_O_Board.cpp.s
 
 Pyramid_X_O_Player.obj: Pyramid_X_O_Player.cpp.obj
@@ -349,7 +349,7 @@ Pyramid_X_O_Player.obj: Pyramid_X_O_Player.cpp.obj
 
 # target to build an object file
 Pyramid_X_O_Player.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/Pyramid_X_O_Player.cpp.obj
 .PHONY : Pyramid_X_O_Player.cpp.obj
 
 Pyramid_X_O_Player.i: Pyramid_X_O_Player.cpp.i
@@ -357,7 +357,7 @@ Pyramid_X_O_Player.i: Pyramid_X_O_Player.cpp.i
 
 # target to preprocess a source file
 Pyramid_X_O_Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/Pyramid_X_O_Player.cpp.i
 .PHONY : Pyramid_X_O_Player.cpp.i
 
 Pyramid_X_O_Player.s: Pyramid_X_O_Player.cpp.s
@@ -365,7 +365,7 @@ Pyramid_X_O_Player.s: Pyramid_X_O_Player.cpp.s
 
 # target to generate assembly for a file
 Pyramid_X_O_Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/Pyramid_X_O_Player.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/Pyramid_X_O_Player.cpp.s
 .PHONY : Pyramid_X_O_Player.cpp.s
 
 RandomPlayer.obj: RandomPlayer.cpp.obj
@@ -373,7 +373,7 @@ RandomPlayer.obj: RandomPlayer.cpp.obj
 
 # target to build an object file
 RandomPlayer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/RandomPlayer.cpp.obj
 .PHONY : RandomPlayer.cpp.obj
 
 RandomPlayer.i: RandomPlayer.cpp.i
@@ -381,7 +381,7 @@ RandomPlayer.i: RandomPlayer.cpp.i
 
 # target to preprocess a source file
 RandomPlayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/RandomPlayer.cpp.i
 .PHONY : RandomPlayer.cpp.i
 
 RandomPlayer.s: RandomPlayer.cpp.s
@@ -389,7 +389,7 @@ RandomPlayer.s: RandomPlayer.cpp.s
 
 # target to generate assembly for a file
 RandomPlayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/RandomPlayer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/RandomPlayer.cpp.s
 .PHONY : RandomPlayer.cpp.s
 
 main.obj: main.cpp.obj
@@ -397,7 +397,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -405,7 +405,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -413,7 +413,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mohamed_final_test.dir\build.make CMakeFiles/mohamed_final_test.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_2.dir\build.make CMakeFiles/Task_2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -424,7 +424,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... mohamed_final_test
+	@echo ... Task_2
+	@echo ... AI_Player.obj
+	@echo ... AI_Player.i
+	@echo ... AI_Player.s
 	@echo ... CollectFourBoard.obj
 	@echo ... CollectFourBoard.i
 	@echo ... CollectFourBoard.s
@@ -446,9 +449,6 @@ help:
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s
-	@echo ... Pyramid_X_O_AI.obj
-	@echo ... Pyramid_X_O_AI.i
-	@echo ... Pyramid_X_O_AI.s
 	@echo ... Pyramid_X_O_Board.obj
 	@echo ... Pyramid_X_O_Board.i
 	@echo ... Pyramid_X_O_Board.s
