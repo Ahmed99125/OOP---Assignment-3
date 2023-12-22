@@ -119,7 +119,7 @@ void FiveXFiveGame::move(int col, int row,QPushButton *button){
                 closeButtons();
                 return;
             }
-            board->display_board();
+           // board->display_board();
         }
     }else{
         QMessageBox::warning(this, "Error", "Invaled move");
