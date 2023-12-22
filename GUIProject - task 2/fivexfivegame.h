@@ -1,6 +1,9 @@
 #ifndef FIVEXFIVEGAME_H
 #define FIVEXFIVEGAME_H
 
+#include "boardgame_classes.h"
+#include "fivexfiveboard.h"
+#include "fivexfiveplayer.h"
 #include <QDialog>
 
 namespace Ui {
@@ -17,6 +20,14 @@ public:
 
 private:
     Ui::FiveXFiveGame *ui;
+    void move(int col, int row,QPushButton *button);
+    Player *player1;
+    Player *player2;
+    Board *board;
+    bool IsPlayer1= true;
+    bool isRandomSecPlayer =false;
+    QVector<QVector<QPushButton *>> buttons;
+    void closeButtons();
 };
 
 #endif // FIVEXFIVEGAME_H

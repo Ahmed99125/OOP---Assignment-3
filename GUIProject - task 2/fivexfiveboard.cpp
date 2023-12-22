@@ -21,7 +21,7 @@ bool FiveXFiveBoard::update_board(int x, int y, char mark)
     {
         board[x][y] = toupper(mark);
         n_moves++;
-        if(n_moves == 24) {
+        /*if(n_moves == 24) {
             for(int i=0; i<5; ++i) {
                 for(int j=0; j<5; ++j) {
                     if(board[i][j] == 0) {
@@ -30,7 +30,7 @@ bool FiveXFiveBoard::update_board(int x, int y, char mark)
                     }
                 }
             }
-        }
+        }*/
         return true;
     }
     else

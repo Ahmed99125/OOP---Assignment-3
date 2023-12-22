@@ -22,10 +22,18 @@ public:
 private slots:
 
 
-    void on_MoveButton_clicked();
+
 
 private:
     Ui::ConnectFourGame *ui;
+    void move(int col, int row,QPushButton *button);
+    Player *player1;
+    Player *player2;
+    Board *board;
+    bool IsPlayer1= true;
+    bool isRandomSecPlayer =false;
+    QVector<QVector<QPushButton *>> buttons;
+    void closeButtons();
 
 
 };

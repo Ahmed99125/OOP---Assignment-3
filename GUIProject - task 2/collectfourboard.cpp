@@ -16,8 +16,8 @@ bool CollectFourBoard::update_board (int x, int y, char mark){
     if (!(x < 0 || x > 5 || y < 0 || y > 6) ) {
         bool isBottom = (x==5 || board[x+1][y] != 0) ;
         if(isBottom && board[x][y] == 0){
-            cout<< x << " " << y<< endl ;
-            cout.flush();
+           // cout<< x << " " << y<< endl ;
+           // cout.flush();
             board[x][y] = toupper(mark);
             n_moves++;
             lastPlayX = x;
@@ -43,6 +43,7 @@ void CollectFourBoard::display_board() {
     cout << endl;
 }
 bool CollectFourBoard::is_winner() {
+    //cout<< "hi";
     // horizontally
     for(int i =max(0, lastPlayY-3); i<=min(lastPlayY,3) ;i++){
         for(int j =i ; j<i+4 ;j++){
@@ -53,6 +54,7 @@ bool CollectFourBoard::is_winner() {
         return true;
     st:;
     }
+    //cout<< "hi";
     // vertically
     for(int i =max(0, lastPlayX-3); i<=min(lastPlayX,3) ;i++){
         for(int j =i ; j<i+4 ;j++){
@@ -63,6 +65,7 @@ bool CollectFourBoard::is_winner() {
         return true;
     st1:;
     }
+    //cout<< "hi";
     // diagonally
     for(int i =lastPlayX - min(lastPlayX,lastPlayY), j = lastPlayY - min(lastPlayX,lastPlayY); i<= min(lastPlayX,2) && j<= min(lastPlayY,3); i++, j++){
         for(int k = 0; k<4 ; k++){
@@ -73,6 +76,7 @@ bool CollectFourBoard::is_winner() {
         return true;
     st2:;
     }
+   // cout<< "hi";
     for(int i =lastPlayX + min(5-lastPlayX,lastPlayY), j = lastPlayY - min(5-lastPlayX,lastPlayY); i>= max(lastPlayX,3) && j<= min(lastPlayY,3); i--, j++){
         for(int k = 0; k<4 ; k++){
             if( board[i-k][j+k] != lastPlaySymbol ){
@@ -83,6 +87,7 @@ bool CollectFourBoard::is_winner() {
     st3:;
         return false;
     }
+    //cout<< "hi";
     return false;
 }
 bool CollectFourBoard::is_draw() {

@@ -1,18 +1,19 @@
 #include "connectfourgame.h"
+#include "qgridlayout.h"
+#include "qpushbutton.h"
 #include "ui_connectfourgame.h"
 #include "QDebug"
 #include <QInputDialog>
 #include <QMessageBox>
+
 
 ConnectFourGame::ConnectFourGame(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::ConnectFourGame)
 {
     ui->setupUi(this);
-    Player* players[2];
-    Board* board;
-    players[0] = new CollectFourPlayer (1, 'x');
 
+    player1 = new CollectFourPlayer('X');
     do{
     QMessageBox msBox;
     msBox.setText("choose the second player");
@@ -21,27 +22,99 @@ ConnectFourGame::ConnectFourGame(QWidget *parent)
     int choice = msBox.exec();
 
     if(choice == QMessageBox::AcceptRole){
-        players[1] = new CollectFourPlayer(2,'O');
+        player2 = new CollectFourPlayer('O');
     }else if(choice == QMessageBox::RejectRole){
-        players[1] = new RandomPlayer('O',7);
+         player2= new RandomPlayer('O',7);
+        isRandomSecPlayer = true;
     }
-    }while(players[1] == nullptr);
+
+    }while(player2 == nullptr);
+    QGridLayout *gridLayout = new QGridLayout(this);
+    buttons.resize(6, QVector<QPushButton *>(7, nullptr));//
+    for (int row = 0; row < 6; ++row) {
+        for (int col = 0; col < 7; ++col) {
+
+            QPushButton *button = new QPushButton(this);
+            button->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+            gridLayout->addWidget(button,row, col);
+            buttons[row][col] = button;
+            //qDebug()<< "hi";
+
+            connect(button, &QPushButton::clicked, [=](){
+                move(col,row,button);
+            });
+        }
+    }
     board = new CollectFourBoard();
-    GameManager collectFour(board, players);
-    collectFour.run();
+
+
 }
 
 ConnectFourGame::~ConnectFourGame()
 {
     delete ui;
 }
+void ConnectFourGame::move(int col, int row,QPushButton *button){
 
+    //qDebug()<< col <<" "<< row<<" " <<symbol;
 
-
-
-void ConnectFourGame::on_MoveButton_clicked()
-{
-    bool okx;
-    int x1 = QInputDialog::getInt(NULL,"Enter X","X:",0,INT_MIN,INT_MAX,1,&okx );
+    if(board->update_board(row, col,IsPlayer1 ? 'X' :'O')){
+        if(IsPlayer1){
+            button->setText("X");
+        }else{
+            button->setText("O");
+        }
+        //board->display_board();
+        if(board->is_winner()){
+            QMessageBox msBox;
+            if(IsPlayer1)msBox.setText("Plyer1 won");
+            else msBox.setText("Plyer2 won");
+            msBox.exec();
+            closeButtons();
+        }
+        //cout<< "hi";
+        if(board->is_draw()){
+            QMessageBox msBox;
+            msBox.setText("Draw");
+            msBox.exec();
+            closeButtons();
+        }
+        IsPlayer1 = !IsPlayer1;
+        if(isRandomSecPlayer){
+            int x,y;
+            do{
+                player2->get_move(x,y);
+                // qDebug()<<"hi";
+            }while(!board->update_board(x, y,IsPlayer1 ? 'X' :'O'));
+            buttons[x][y]->setText("O");
+            IsPlayer1 = !IsPlayer1;
+            if(board->is_winner()){
+                QMessageBox msBox;
+                msBox.setText("Random Player won");
+                msBox.exec();
+                closeButtons();
+            }
+            if(board->is_draw()){
+                QMessageBox msBox;
+                msBox.setText("Draw");
+                msBox.exec();
+                closeButtons();
+            }
+            board->display_board();
+        }
+    }else{
+        QMessageBox::warning(this, "Error", "Invaled move");
+    }
 }
+void ConnectFourGame::closeButtons(){
+    for (int row = 0; row < 6; ++row) {
+        for (int col = 0; col < 7; ++col) {
+            buttons[row][col]->setEnabled(false);
+        }
+    }
+}
+
+
+
+
 

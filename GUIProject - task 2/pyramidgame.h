@@ -2,6 +2,9 @@
 #define PYRAMIDGAME_H
 
 #include <QDialog>
+#include "pyramid_x_o_board.h"
+#include "pyramid_x_o_player.h"
+#include "boardgame_classes.h"
 
 namespace Ui {
 class PyramidGame;
@@ -17,6 +20,14 @@ public:
 
 private:
     Ui::PyramidGame *ui;
+    void move(int col, int row,QPushButton *button);
+    Player *player1;
+    Player *player2;
+    Board *board;
+    bool IsPlayer1= true;
+    bool isRandomSecPlayer =false;
+    QVector<QVector<QPushButton *>> buttons;
+    void closeButtons();
 };
 
 #endif // PYRAMIDGAME_H
