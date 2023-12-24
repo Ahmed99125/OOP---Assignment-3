@@ -4,7 +4,7 @@
 #include <QDialog>
 #include "pyramid_x_o_board.h"
 #include "pyramid_x_o_player.h"
-#include "boardgame_classes.h"
+#include "BoardGame_Classes.hpp"
 
 namespace Ui {
 class PyramidGame;
@@ -28,6 +28,7 @@ private:
     bool isRandomSecPlayer =false;
     QVector<QVector<QPushButton *>> buttons;
     void closeButtons();
+    void openButtons();
 };
 
 #endif // PYRAMIDGAME_H

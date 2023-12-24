@@ -5,7 +5,7 @@
 #ifndef NEW_FOLDER_FIVEXFIVEPLAYER_H
 #define NEW_FOLDER_FIVEXFIVEPLAYER_H
 
-#include "boardgame_classes.h"
+#include "BoardGame_Classes.hpp"
 
 class FiveXFivePlayer : public Player {
 public:

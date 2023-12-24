@@ -1,7 +1,7 @@
 #ifndef FIVEXFIVEGAME_H
 #define FIVEXFIVEGAME_H
 
-#include "boardgame_classes.h"
+#include "BoardGame_Classes.hpp"
 #include "fivexfiveboard.h"
 #include "fivexfiveplayer.h"
 #include <QDialog>
@@ -28,6 +28,7 @@ private:
     bool isRandomSecPlayer =false;
     QVector<QVector<QPushButton *>> buttons;
     void closeButtons();
+    void openButtons();
 };
 
 #endif // FIVEXFIVEGAME_H

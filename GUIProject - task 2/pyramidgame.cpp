@@ -77,7 +77,6 @@ void PyramidGame::move(int col, int row,QPushButton *button){
             closeButtons();
             return;
         }
-        //cout<< "hi";
         if(board->is_draw()){
             QMessageBox msBox;
             msBox.setText("Draw");
@@ -87,12 +86,13 @@ void PyramidGame::move(int col, int row,QPushButton *button){
         }
         IsPlayer1 = !IsPlayer1;
         if(isRandomSecPlayer){
+            closeButtons();
             int x,y;
             do{
                 player2->get_move(x,y);
-                qDebug()<<"hi";
             }while(!board->update_board(x, y,IsPlayer1 ? 'X' :'O'));
             buttons[x][y]->setText("O");
+            openButtons();
             IsPlayer1 = !IsPlayer1;
             if(board->is_winner()){
                 QMessageBox msBox;
@@ -121,6 +121,17 @@ void PyramidGame::closeButtons(){
                 continue;
             }
             buttons[row][col]->setEnabled(false);
+        }
+    }
+}
+
+void PyramidGame::openButtons(){
+    for (int row = 0; row < 3; ++row) {
+        for (int col = 0; col < 5; ++col) {
+            if(((row == 0 )&&(col==0 || col==1 || col == 3|| col== 4)) || (row ==1)&&(col==0|| col==4)){
+                continue;
+            }
+            buttons[row][col]->setEnabled(true);
         }
     }
 }

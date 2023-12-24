@@ -84,12 +84,14 @@ void ConnectFourGame::move(int col, int row,QPushButton *button){
         }
         IsPlayer1 = !IsPlayer1;
         if(isRandomSecPlayer){
+            closeButtons();
             int x,y;
             do{
                 player2->get_move(x,y);
                 // qDebug()<<"hi";
             }while(!board->update_board(x, y,IsPlayer1 ? 'X' :'O'));
             buttons[x][y]->setText("O");
+            openButtons();
             IsPlayer1 = !IsPlayer1;
             if(board->is_winner()){
                 QMessageBox msBox;
@@ -115,6 +117,14 @@ void ConnectFourGame::closeButtons(){
     for (int row = 0; row < 6; ++row) {
         for (int col = 0; col < 7; ++col) {
             buttons[row][col]->setEnabled(false);
+        }
+    }
+}
+
+void ConnectFourGame::openButtons(){
+    for (int row = 0; row < 6; ++row) {
+        for (int col = 0; col < 7; ++col) {
+            buttons[row][col]->setEnabled(true);
         }
     }
 }

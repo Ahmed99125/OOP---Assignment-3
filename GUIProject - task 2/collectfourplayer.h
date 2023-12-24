@@ -5,7 +5,7 @@
 #ifndef NEW_FOLDER_COLLECTFOURPLAYER_H
 #define NEW_FOLDER_COLLECTFOURPLAYER_H
 
-#include "boardgame_classes.h"
+#include "BoardGame_Classes.hpp"
 
 class CollectFourPlayer : public Player {
 public:

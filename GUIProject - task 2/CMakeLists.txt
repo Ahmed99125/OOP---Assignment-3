@@ -23,7 +23,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(GUIProject
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        boardgame_classes.h
+        BoardGame_Classes.hpp
         collectfourboard.h collectfourboard.cpp
         collectfourplayer.h collectfourplayer.cpp
         fivexfive_gamemanager.h fivexfive_gamemanager.cpp

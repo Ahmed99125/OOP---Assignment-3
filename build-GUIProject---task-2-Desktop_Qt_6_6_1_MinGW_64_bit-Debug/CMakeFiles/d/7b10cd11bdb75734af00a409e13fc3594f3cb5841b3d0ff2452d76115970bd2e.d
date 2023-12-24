@@ -512,15 +512,16 @@ GUIProject_autogen/timestamp: \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/AI_Player.h \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/BoardGame_Classes.hpp \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/CMakeLists.txt \
+  D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/CollectFourPlayer.h \
+  D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/FiveXFivePlayer.h \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/GameManager.cpp \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/Player.cpp \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/RandomPlayer.cpp \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/X_O_Board.cpp \
-  D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/boardgame_classes.h \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/collectfourboard.cpp \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/collectfourboard.h \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/collectfourplayer.cpp \
-  D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/collectfourplayer.h \
+  D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/CollectFourPlayer.h \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/connectfourgame.cpp \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/connectfourgame.h \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/connectfourgame.ui \
@@ -532,7 +533,7 @@ GUIProject_autogen/timestamp: \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfivegame.h \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfivegame.ui \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfiveplayer.cpp \
-  D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/fivexfiveplayer.h \
+  D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/FiveXFivePlayer.h \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/main.cpp \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/mainwindow.cpp \
   D:/Documents/FCAI/OOP/OOP---Assignment-3-main/GUIProject\ -\ task\ 2/mainwindow.h \

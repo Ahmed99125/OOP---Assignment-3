@@ -3,7 +3,7 @@
 // Date:    10/10/2022
 // Version: 1
 #include<iostream>
-#include"boardgame_classes.h"
+#include"BoardGame_Classes.hpp"
 #include <QInputDialog>
 using namespace std;
 

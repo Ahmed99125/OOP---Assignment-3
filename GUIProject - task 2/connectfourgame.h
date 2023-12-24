@@ -3,7 +3,7 @@
 
 #include "collectfourboard.h"
 #include "collectfourplayer.h"
-#include "boardgame_classes.h"
+#include "BoardGame_Classes.hpp"
 #include "QDebug"
 #include <QDialog>
 
@@ -34,6 +34,7 @@ private:
     bool isRandomSecPlayer =false;
     QVector<QVector<QPushButton *>> buttons;
     void closeButtons();
+    void openButtons();
 
 
 };

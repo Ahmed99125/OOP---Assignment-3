@@ -18,7 +18,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90db344c-6ee9-444f-92da-b8cf7851975f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Task_2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Task_2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUIProject - task 2/connectfourgame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIProject - task 2/connectfourgame.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUIProject - task 2/connectfourgame.h" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIProject - task 2/connectfourgame.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUIProject - task 2/fivexfivegame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIProject - task 2/fivexfivegame.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUIProject - task 2/fivexfivegame.h" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIProject - task 2/fivexfivegame.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUIProject - task 2/pyramidgame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIProject - task 2/pyramidgame.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUIProject - task 2/pyramidgame.h" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIProject - task 2/pyramidgame.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/GUIProject_autogen/mocs_compilation.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/GUIProject_autogen/mocs_compilation.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject_autogen.dir/ParseCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

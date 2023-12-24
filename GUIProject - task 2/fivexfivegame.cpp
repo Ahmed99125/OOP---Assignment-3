@@ -91,11 +91,13 @@ void FiveXFiveGame::move(int col, int row,QPushButton *button){
 
         IsPlayer1 = !IsPlayer1;
         if(isRandomSecPlayer){
+            closeButtons();
             int x,y;
             do{
                 player2->get_move(x,y);
             }while(!board->update_board(x, y,IsPlayer1 ? 'X' :'O'));
             buttons[x][y]->setText("O");
+            openButtons();
             IsPlayer1 = !IsPlayer1;
             if(board->game_is_over()){
                 if(board->is_draw()){
@@ -130,6 +132,14 @@ void FiveXFiveGame::closeButtons(){
     for (int row = 0; row < 5; ++row) {
         for (int col = 0; col < 5; ++col) {
             buttons[row][col]->setEnabled(false);
+        }
+    }
+}
+
+void FiveXFiveGame::openButtons(){
+    for (int row = 0; row < 5; ++row) {
+        for (int col = 0; col < 5; ++col) {
+            buttons[row][col]->setEnabled(true);
         }
     }
 }

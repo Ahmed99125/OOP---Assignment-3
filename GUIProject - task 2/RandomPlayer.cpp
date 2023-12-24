@@ -4,7 +4,7 @@
 // Date:    10/10/2022
 // Version: 1
 #include<iostream>
-#include"boardgame_classes.h"
+#include"BoardGame_Classes.hpp"
 using namespace std;
 
 // Set player symbol and name as Random Computer Player

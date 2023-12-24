@@ -2,7 +2,7 @@
 #define NORMALGAME_H
 
 #include <QDialog>
-#include "boardgame_classes.h"
+#include "BoardGame_Classes.hpp"
 
 namespace Ui {
 class NormalGame;

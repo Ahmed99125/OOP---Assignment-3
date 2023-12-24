@@ -3,6 +3,7 @@
 #include "qmessagebox.h"
 #include "qpushbutton.h"
 #include "ui_normalgame.h"
+#include "AI_Player.h"
 
 NormalGame::NormalGame(QWidget *parent)
     : QDialog(parent)
@@ -10,6 +11,7 @@ NormalGame::NormalGame(QWidget *parent)
 {
     ui->setupUi(this);
     player1 = new Player('X');
+    board = new X_O_Board();
     do{
         QMessageBox msBox;
         msBox.setText("choose the second player");
@@ -20,7 +22,7 @@ NormalGame::NormalGame(QWidget *parent)
         if(choice == QMessageBox::AcceptRole){
             player2 = new Player('O');
         }else if(choice == QMessageBox::RejectRole){
-            player2= new RandomPlayer('O',3);
+            player2= new AI_Player('O', board, 3);
             isRandomSecPlayer = true;
         }
 
@@ -41,7 +43,6 @@ NormalGame::NormalGame(QWidget *parent)
             });
         }
     }
-    board = new X_O_Board();
 }
 
 NormalGame::~NormalGame()
@@ -67,7 +68,7 @@ void NormalGame::move(int col, int row,QPushButton *button){
             closeButtons();
             return;
         }
-        cout<< "hi";
+
         if(board->is_draw()){
             QMessageBox msBox;
             msBox.setText("Draw");
@@ -80,7 +81,7 @@ void NormalGame::move(int col, int row,QPushButton *button){
             int x,y;
             do{
                 player2->get_move(x,y);
-                // qDebug()<<"hi";
+
             }while(!board->update_board(x, y,IsPlayer1 ? 'X' :'O'));
             buttons[x][y]->setText("O");
             IsPlayer1 = !IsPlayer1;

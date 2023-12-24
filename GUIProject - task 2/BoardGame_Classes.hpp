@@ -30,11 +30,11 @@ public:
    // Return true if game is over
    virtual bool game_is_over() = 0;
 
-   // Removes move in cell (x,y)
+    // Removes move in cell (x,y)
     virtual bool undo_move(int x, int y) = 0;
     // Return the board as string
     virtual string get_board() const = 0;
-   // Return n_moves
+    // Return n_moves
     virtual int get_n_moves() const = 0;
     // Return n_rows
     virtual int get_n_rows() const = 0;
@@ -55,6 +55,13 @@ public:
    bool is_winner();
    bool is_draw();
    bool game_is_over();
+
+   bool undo_move(int x, int y);
+   string get_board() const;
+   int get_n_moves() const;
+   int get_n_rows() const;
+   int get_n_cols() const;
+   int eval_game(char curr_player, int depth);
 };
 
 ///////////////////////////////////////////
@@ -79,6 +86,8 @@ class Player {
         string to_string();
         // Get symbol used by player
         char get_symbol();
+
+        string MakeNameWindow();
 };
 
 ///////////////////////////////////////////
