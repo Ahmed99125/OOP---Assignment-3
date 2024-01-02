@@ -18,21 +18,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90db344c-6ee9-444f-92da-b8cf7851975f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../GUIProject - task 2/connectfourgame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIProject - task 2/connectfourgame.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUIProject - task 2/connectfourgame.h" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIProject - task 2/connectfourgame.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUIProject - task 2/fivexfivegame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIProject - task 2/fivexfivegame.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUIProject - task 2/fivexfivegame.h" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIProject - task 2/fivexfivegame.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUIProject - task 2/pyramidgame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIProject - task 2/pyramidgame.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUIProject - task 2/pyramidgame.h" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIProject - task 2/pyramidgame.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/GUIProject_autogen/mocs_compilation.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/GUIProject_autogen/mocs_compilation.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject_autogen.dir/ParseCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FiveXFiveBoard.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FiveXFiveBoard.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply.prev/cache-v2-601fe8fb168a811ef270.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply.prev/cmakeFiles-v1-bc215a200697333d7c8f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply.prev/codemodel-v2-8c12442104ac91a87812.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply.prev/directory-.-Debug-4ecafeefcf558a7e6b16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply.prev/index-2023-12-24T01-29-38-0934.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply.prev/target-GUIProject-Debug-fa8b2ed62894c9189b06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply.prev/target-GUIProject_autogen-Debug-dac9aff6d33f6a28995d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply.prev/target-GUIProject_autogen_timestamp_deps-Debug-7818273af3ca9fa2c6a6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply/cache-v2-601fe8fb168a811ef270.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply/cmakeFiles-v1-bc215a200697333d7c8f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply/codemodel-v2-2f1c2b7d25786c899790.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply/directory-.-Debug-4ecafeefcf558a7e6b16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply/index-2023-12-24T01-31-44-0130.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply/target-GUIProject-Debug-fb2518b92ffb2f29fd74.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply/target-GUIProject_autogen-Debug-dac9aff6d33f6a28995d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.cmake/api/v1/reply/target-GUIProject_autogen_timestamp_deps-Debug-7818273af3ca9fa2c6a6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.qt/QtDeploySupport.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.qtc/package-manager/conan.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.qtc/package-manager/conan_provider.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeCache.txt.prev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/AI_Player.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/GUIProject_autogen/mocs_compilation.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/GameManager.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/Player.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/RandomPlayer.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/X_O_Board.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/collectfourboard.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/collectfourplayer.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/fivexfive_gamemanager.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/fivexfiveboard.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/fivexfiveplayer.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/mainwindow.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/normalgame.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/pyramid_x_o_board.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/pyramid_x_o_player.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject_autogen.dir/AutogenInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject_autogen.dir/AutogenUsed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/GUIProject_autogen.dir/ParseCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/clean_additional.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/d/7b10cd11bdb75734af00a409e13fc3594f3cb5841b3d0ff2452d76115970bd2e.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/EWIEGA46WW/moc_connectfourgame.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/EWIEGA46WW/moc_connectfourgame.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/EWIEGA46WW/moc_fivexfivegame.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/EWIEGA46WW/moc_fivexfivegame.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/EWIEGA46WW/moc_mainwindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/EWIEGA46WW/moc_mainwindow.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/EWIEGA46WW/moc_normalgame.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/EWIEGA46WW/moc_normalgame.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/EWIEGA46WW/moc_pyramidgame.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/EWIEGA46WW/moc_pyramidgame.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/include/ui_connectfourgame.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/include/ui_fivexfivegame.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/include/ui_mainwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/include/ui_normalgame.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/include/ui_pyramidgame.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/moc_predefs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/mocs_compilation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/GUIProject_autogen/timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/qtcsettings.cmake" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,24 +133,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Task 2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Task_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Task_2" TARGET_NAME="Task_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Task_2" RUN_TARGET_NAME="Task_2">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -86,7 +155,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b796ff2-1a2f-4222-afad-27ef14a73c25" name="Changes" comment="" />
+      <changelist id="90db344c-6ee9-444f-92da-b8cf7851975f" name="Changes" comment="" />
       <created>1702953585800</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -104,6 +173,12 @@
       <workItem from="1703232069451" duration="292000" />
       <workItem from="1703232375669" duration="154000" />
       <workItem from="1703232540244" duration="1215000" />
+      <workItem from="1703513171063" duration="50000" />
+      <workItem from="1703788270555" duration="109000" />
+      <workItem from="1703802403951" duration="659000" />
+      <workItem from="1703816983918" duration="2683000" />
+      <workItem from="1704134992989" duration="21000" />
+      <workItem from="1704141080931" duration="1617000" />
     </task>
     <servers />
   </component>

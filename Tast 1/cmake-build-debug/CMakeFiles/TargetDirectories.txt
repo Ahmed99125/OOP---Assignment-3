@@ -1,0 +1,3 @@
+D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Tast 1/cmake-build-debug/CMakeFiles/Tast_1.dir
+D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Tast 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Documents/FCAI/OOP/OOP---Assignment-3-main/Tast 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

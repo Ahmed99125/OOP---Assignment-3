@@ -1,0 +1,26 @@
+# ninja log v5
+1	1056	7250871476905420	GUIProject_autogen/timestamp	49f91ce668f17389
+1	1056	7250871476905420	GUIProject_autogen/mocs_compilation.cpp	49f91ce668f17389
+1	1056	7250871476905420	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Release/GUIProject_autogen/timestamp	49f91ce668f17389
+1	1056	7250871476905420	D:/Documents/FCAI/OOP/OOP---Assignment-3-main/build-GUIProject---task-2-Desktop_Qt_6_6_1_MinGW_64_bit-Release/GUIProject_autogen/mocs_compilation.cpp	49f91ce668f17389
+1062	1693	7250871483457879	CMakeFiles/GUIProject.dir/fivexfive_gamemanager.cpp.obj	5b8e4126e4c881e7
+1064	1848	7250871484604817	CMakeFiles/GUIProject.dir/fivexfiveplayer.cpp.obj	50d62788d724bb9f
+1059	2154	7250871488075523	CMakeFiles/GUIProject.dir/collectfourboard.cpp.obj	1eeed614174c2203
+1063	2198	7250871488534305	CMakeFiles/GUIProject.dir/fivexfiveboard.cpp.obj	1326e225edf6e571
+1695	2577	7250871492114719	CMakeFiles/GUIProject.dir/pyramid_x_o_player.cpp.obj	93179118542b7607
+1849	3103	7250871497500307	CMakeFiles/GUIProject.dir/pyramid_x_o_board.cpp.obj	d76bdf725f33b0fa
+2198	3136	7250871497819450	CMakeFiles/GUIProject.dir/RandomPlayer.cpp.obj	a7fd87a63f0989ff
+1058	4051	7250871506775497	CMakeFiles/GUIProject.dir/main.cpp.obj	6e8d98dc5ee9f707
+1061	4094	7250871507553408	CMakeFiles/GUIProject.dir/collectfourplayer.cpp.obj	13c90c84b335deba
+1057	4124	7250871507703015	CMakeFiles/GUIProject.dir/GUIProject_autogen/mocs_compilation.cpp.obj	cd495fbe0511c71
+1065	4125	7250871507742896	CMakeFiles/GUIProject.dir/GameManager.cpp.obj	803f60a1aaa1efa3
+1059	4288	7250871509458308	CMakeFiles/GUIProject.dir/Player.cpp.obj	9e6a04eced4c5443
+1060	4752	7250871514215574	CMakeFiles/GUIProject.dir/mainwindow.cpp.obj	f7b38a25d4e53c8c
+3136	4773	7250871514434979	CMakeFiles/GUIProject.dir/X_O_Board.cpp.obj	719527d4cb5b52d
+4094	5111	7250871517825919	CMakeFiles/GUIProject.dir/AI_Player.cpp.obj	f7059c4b277f53e0
+2154	5650	7250871523211506	CMakeFiles/GUIProject.dir/fivexfivegame.cpp.obj	6866bec693e744a2
+2577	5971	7250871526412924	CMakeFiles/GUIProject.dir/connectfourgame.cpp.obj	379c9c65964c0f9d
+3104	6029	7250871527001361	CMakeFiles/GUIProject.dir/normalgame.cpp.obj	ea2791840b72a07b
+4052	6324	7250871529945581	CMakeFiles/GUIProject.dir/pyramidgame.cpp.obj	b7a165b2c7956532
+6324	6449	7250871531161633	GUIProject.exe	7da06d74904b81d0
+4	124	7250879409564912	GUIProject.exe	7da06d74904b81d0

@@ -376,7 +376,6 @@ int FiveXFiveBoard::eval_game(char curr_player, int depth) {
         return 0;
     };
 
-
     for (int i = 0; i < n_rows; i++) {
         for (int j = 0; j < n_cols; j++) {
             int score = 0;
